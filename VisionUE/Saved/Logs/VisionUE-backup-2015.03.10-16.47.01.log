@@ -1,0 +1,1187 @@
+﻿Log file open, 03/10/15 16:32:48
+LogInit:Display: Running engine for game: VisionUE
+LogInit: Version: 4.7.2-2467323+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Mar  2 2015 23:16:34
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: D:/Programme/Epic/Unreal Engine/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.03.10-15.32.48:388][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.03.10-15.32.48:443][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.03.10-15.32.48:457][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.03.10-15.32.48:468][  0]LogInit: Object subsystem initialized
+[2015.03.10-15.32.48:470][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.03.10-15.32.48:470][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/GitHub/Vision/VisionUE/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.10-15.32.48:470][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.03.10-15.32.48:470][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/GitHub/Vision/VisionUE/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.10-15.32.48:470][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.03.10-15.32.48:470][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/GitHub/Vision/VisionUE/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.10-15.32.48:471][  0]LogInit: Selected Device Profile: [Windows]
+[2015.03.10-15.32.48:471][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.03.10-15.32.48:478][  0]LogInit: Computer: ZENTRUM-PC
+[2015.03.10-15.32.48:478][  0]LogInit: User: Zentrum
+[2015.03.10-15.32.48:478][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.03.10-15.32.48:478][  0]LogInit: High frequency timer resolution =3.579545 MHz
+[2015.03.10-15.32.48:478][  0]LogMemory: Memory total: Physical=7.5GB (8GB approx) Virtual=8192.0GB
+[2015.03.10-15.32.48:479][  0]LogMemory: Platform Memory Stats for Windows
+[2015.03.10-15.32.48:479][  0]LogMemory: Process Physical Memory: 47.30 MB used, 47.30 MB peak
+[2015.03.10-15.32.48:479][  0]LogMemory: Process Virtual Memory: 25.46 MB used, 25.46 MB peak
+[2015.03.10-15.32.48:479][  0]LogMemory: Physical Memory: 2490.65 MB used, 7679.18 MB total
+[2015.03.10-15.32.48:479][  0]LogMemory: Virtual Memory: 279.40 MB used, 8388608.00 MB total
+[2015.03.10-15.32.48:507][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 630 (Feature Level 11_0)
+[2015.03.10-15.32.48:507][  0]LogD3D11RHI: Adapter has 4040MB of dedicated video memory, 0MB of dedicated system memory, and 3583MB of shared system memory, 2 output[s]
+[2015.03.10-15.32.48:521][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce 8200 (Microsoft Corporation - WDDM v1.1) (Feature Level 10_0)
+[2015.03.10-15.32.48:521][  0]LogD3D11RHI: Adapter has 487MB of dedicated video memory, 64MB of dedicated system memory, and 3519MB of shared system memory, 1 output[s]
+[2015.03.10-15.32.48:521][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.03.10-15.32.48:527][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.03.10-15.32.48:534][  0]LogD3D11RHI: Async texture creation enabled
+[2015.03.10-15.32.48:590][  0]LogTextLocalizationManager: The requested culture ('de_DE') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.03.10-15.32.48:793][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.03.10-15.32.51:331][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.10-15.32.51:870][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.10-15.32.51:935][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.03.10-15.32.52:019][  0]LogDerivedDataCache: Loaded boot cache 0.08s 39MB C:/Users/Zentrum/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.10-15.32.52:019][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Zentrum/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.03.10-15.32.52:019][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../GitHub/Vision/VisionUE/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.03.10-15.32.52:019][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.03.10-15.32.52:160][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.03.10-15.32.52:172][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Zentrum/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.03.10-15.32.52:555][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.03.10-15.32.52:555][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.03.10-15.32.53:019][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.03.10-15.32.53:096][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.03.10-15.32.53:914][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.03.10-15.32.54:112][  0]SourceControl: Info Source control is disabled
+[2015.03.10-15.32.54:112][  0]SourceControl: Info Source control is disabled
+[2015.03.10-15.32.54:112][  0]SourceControl: Info Source control is disabled
+[2015.03.10-15.32.54:121][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.10-15.32.54:127][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.msysgit.0
+'
+[2015.03.10-15.32.54:313][  0]LogObj: 24231 objects as part of root set at end of initial load.
+[2015.03.10-15.32.54:313][  0]LogUObjectAllocator: 5136440 out of 0 bytes used by permanent object pool.
+[2015.03.10-15.32.54:412][  0]LogEngine: Initializing Engine...
+[2015.03.10-15.32.56:616][  0]LogInit: XAudio2 using 'Lautsprecher (2- High Definition Audio-Gerät)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.03.10-15.32.56:644][  0]LogInit: FAudioDevice initialized.
+[2015.03.10-15.32.56:682][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.03.10-15.32.56:725][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/Zentrum/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.10-15.32.56:738][  0]LogInit: Texture streaming: Enabled
+[2015.03.10-15.32.56:846][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.03.10-15.32.56:846][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.2-2467323+++depot+UE4-Releases+4.7
+[2015.03.10-15.32.56:846][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.2-2467323+++depot+UE4-Releases+4.7
+[2015.03.10-15.32.56:846][  0]LogAnalytics: SetUserId a6f1bd084faec6cebe4e75a2d83b8662|b2c1567841e5484c93ced7e05cd852ce|0f5b9dc7-2094-4ccf-821e-cb105ecd4728
+[2015.03.10-15.32.56:847][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.03.10-15.32.56:868][  0]LogInit: Transaction tracking system initialized
+[2015.03.10-15.32.57:041][  0]BlueprintLog: New page: Editor Load
+[2015.03.10-15.32.57:074][  0]LogAssetRegistry: FAssetRegistry took 0.0101 seconds to start up
+[2015.03.10-15.32.57:075][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.03.10-15.32.57:629][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.10-15.32.58:012][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.10-15.32.58:245][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2015.03.10-15.32.58:245][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2015.03.10-15.32.58:245][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownBP/TopDownOverview.TopDownOverview_C'
+[2015.03.10-15.32.58:285][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.03.10-15.32.58:286][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.03.10-15.32.58:291][  0]LogConsoleResponse:Display: 
+[2015.03.10-15.32.58:443][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.03.10-15.32.58:584][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.10-15.32.58:591][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.msysgit.0
+'
+[2015.03.10-15.32.58:591][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.10-15.32.58:592][  0]LightingResults: New page: Lighting Build
+[2015.03.10-15.32.58:605][  0]MapCheck: New page: Map Check
+[2015.03.10-15.32.58:605][  0]LightingResults: New page: Lighting Build
+[2015.03.10-15.32.58:615][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003FA6980
+[2015.03.10-15.32.59:311][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.10-15.32.59:312][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.03.10-15.32.59:312][  0]Cmd: MAP CHECKDEP
+[2015.03.10-15.32.59:313][  0]MapCheck: New page: Untitled_1 - Mar 10, 2015, 5:32:59 PM
+[2015.03.10-15.32.59:391][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 78.621ms to complete.
+[2015.03.10-15.32.59:391][  0]LogFileHelpers: Loading map 'Template_Default' took 0.800
+[2015.03.10-15.32.59:533][  0]LogSourceControl: RunCommandInternalRaw: 'git status'
+[2015.03.10-15.32.59:533][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   VisionUE/Content/CharacterStatWindow.uasset
+	new file:   VisionUE/Content/FOnt.uasset
+	new file:   VisionUE/Content/GM.uasset
+	new file:   VisionUE/Content/PC.uasset
+	new file:   VisionUE/Content/RpgStatControll.uasset
+	new file:   VisionUE/Content/StatBlock.uasset
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   VisionUE/Content/CharacterStatWindow.uasset
+	modified:   VisionUE/Content/Default.umap
+	modified:   VisionUE/Content/GM.uasset
+	modified:   VisionUE/Content/PC.uasset
+	modified:   VisionUE/Content/RpgStatControll.uasset
+	modified:   VisionUE/Content/StatBlock.uasset
+	modified:   VisionUE/Intermediate/CachedAssetRegistry.bin
+	modified:   VisionUE/Intermediate/ReimportCache/3688439234.bin
+	modified:   VisionUE/Saved/Config/Windows/Editor.ini
+	modified:   VisionUE/Saved/Config/Windows/EditorLayout.ini
+	modified:   VisionUE/Saved/Config/Windows/EditorUserSettings.ini
+	modified:   VisionUE/Saved/Config/Windows/Engine.ini
+	modified:   VisionUE/Saved/Config/Windows/SourceControlSettings.ini
+	modified:   VisionUE/Saved/Logs/VisionUE.log
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	VisionUE/Saved/AutoScreenshot.png
+	VisionUE/Saved/Autosaves/Game/
+	VisionUE/Saved/Backup/CharacterStatWindow_2015-03-10-15-55-41.uasset
+	VisionUE/Saved/Backup/CharacterStatWindow_2015-03-10-16-01-28.uasset
+	VisionUE/Saved/Backup/CharacterStatWindow_2015-03-10-16-10-47.uasset
+	VisionUE/Saved/Backup/CharacterStatWindow_2015-03-10-16-15-56.uasset
+	VisionUE/Saved/Backup/CharacterStatWindow_2015-03-10-16-22-07.uasset
+	VisionUE/Saved/Backup/Default_2015-03-10-15-45-40.umap
+	VisionUE/Saved/Backup/Default_2015-03-10-16-12-34.umap
+	VisionUE/Saved/Backup/GM_2015-03-10-16-13-00.uasset
+	VisionUE/Saved/Backup/PC_2015-03-10-16-15-21.uasset
+	VisionUE/Saved/Backup/RpgStatControll_2015-03-10-15-49-05.uasset
+	VisionUE/Saved/Backup/RpgStatControll_2015-03-10-16-14-24.uasset
+	VisionUE/Saved/Backup/RpgStatControll_2015-03-10-16-22-20.uasset
+	VisionUE/Saved/Backup/RpgStatControll_2015-03-10-16-32-05.uasset
+	VisionUE/Saved/Backup/StatBlock_2015-03-10-15-47-16.uasset
+	VisionUE/Saved/Diff/
+	VisionUE/Saved/Logs/VisionUE-backup-2015.03.10-15.41.40.log
+	VisionUE/Saved/Logs/VisionUE-backup-2015.03.10-16.32.48.log
+
+'
+[2015.03.10-15.32.59:533][  0]LogSourceControl: RunCommandInternalRaw: 'git symbolic-ref --short HEAD'
+[2015.03.10-15.32.59:533][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='master
+'
+[2015.03.10-15.32.59:533][  0]LogCollectionManager: Loaded 0 collections in 0.001684 seconds
+[2015.03.10-15.32.59:543][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 1696 classes and 261 folders.
+[2015.03.10-15.32.59:562][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.03.10-15.32.59:578][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
+[2015.03.10-15.32.59:657][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.03.10-15.32.59:659][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.03.10-15.32.59:666][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.03.10-15.32.59:694][  0]LogLoad: Full Startup: 13.16 seconds (BP compile: 0.09 seconds)
+[2015.03.10-15.33.00:084][  0]SourceControl: Info master
+[2015.03.10-15.33.00:250][  0]LogRenderer:Warning: Reallocating scene render targets to support 808x384 (Frame:2).
+[2015.03.10-15.33.01:445][  4]LogAssetRegistry: Asset discovery search completed in 4.3818 seconds
+[2015.03.10-15.33.07:438][ 23]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/CharacterStatWindow.uasset" "D:/GitHub/Vision/VisionUE/Content/Default.umap" "D:/GitHub/Vision/VisionUE/Content/FOnt.uasset" "D:/GitHub/Vision/VisionUE/Content/GM.uasset" "D:/GitHub/Vision/VisionUE/Content/PC.uasset" "D:/GitHub/Vision/VisionUE/Content/RpgStatControll.uasset" "D:/GitHub/Vision/VisionUE/Content/StatBlock.uasset"'
+[2015.03.10-15.33.07:771][ 24]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/CharacterStatWindow.uasset
+ M VisionUE/Content/Default.umap
+A  VisionUE/Content/FOnt.uasset
+AM VisionUE/Content/GM.uasset
+AM VisionUE/Content/PC.uasset
+AM VisionUE/Content/RpgStatControll.uasset
+AM VisionUE/Content/StatBlock.uasset
+'
+[2015.03.10-15.33.26:163][563]LogBlueprint:Warning: [compiler] Warning Variable HeaderText is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
+[2015.03.10-15.33.26:166][563]LogBlueprint:Warning: [compiler] Warning [0039.64] Compile of CharacterStatWindow successful, but with 1 Warning(s) [in 8 ms]
+[2015.03.10-15.33.26:166][563]LogBlueprint:Warning: [compiler] Warning [0039.64] Compile of CharacterStatWindow successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.10-15.33.26:166][563]LogBlueprint:Warning: [compiler] Warning [0039.64] Compile of CharacterStatWindow successful, but with 3 Warning(s) [in 0 ms]
+[2015.03.10-15.33.26:166][563]LogBlueprint:Warning: [compiler] Warning [0039.64] Compile of CharacterStatWindow successful, but with 4 Warning(s) [in 0 ms]
+[2015.03.10-15.33.26:172][563]LogBlueprint:Warning: [compiler] Warning Variable HeaderText is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
+[2015.03.10-15.33.26:175][563]LogBlueprint:Warning: [compiler] Warning [0039.65] Compile of CharacterStatWindow successful, but with 1 Warning(s) [in 8 ms]
+[2015.03.10-15.33.26:175][563]LogBlueprint:Warning: [compiler] Warning [0039.65] Compile of CharacterStatWindow successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.10-15.33.26:219][563]LogSourceControl: RunCommandInternalRaw: 'git status'
+[2015.03.10-15.33.26:235][563]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   VisionUE/Content/CharacterStatWindow.uasset
+	new file:   VisionUE/Content/FOnt.uasset
+	new file:   VisionUE/Content/GM.uasset
+	new file:   VisionUE/Content/PC.uasset
+	new file:   VisionUE/Content/RpgStatControll.uasset
+	new file:   VisionUE/Content/StatBlock.uasset
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   VisionUE/Content/CharacterStatWindow.uasset
+	modified:   VisionUE/Content/Default.umap
+	modified:   VisionUE/Content/GM.uasset
+	modified:   VisionUE/Content/PC.uasset
+	modified:   VisionUE/Content/RpgStatControll.uasset
+	modified:   VisionUE/Content/StatBlock.uasset
+	modified:   VisionUE/Intermediate/CachedAssetRegistry.bin
+	modified:   VisionUE/Intermediate/ReimportCache/3688439234.bin
+	modified:   VisionUE/Saved/Config/Windows/Editor.ini
+	modified:   VisionUE/Saved/Config/Windows/EditorLayout.ini
+	modified:   VisionUE/Saved/Config/Windows/EditorUserSettings.ini
+	modified:   VisionUE/Saved/Config/Windows/Engine.ini
+	modified:   VisionUE/Saved/Config/Windows/SourceControlSettings.ini
+	modified:   VisionUE/Saved/Logs/VisionUE.log
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	VisionUE/Saved/AutoScreenshot.png
+	VisionUE/Saved/Autosaves/Game/
+	VisionUE/Saved/Backup/CharacterStatWindow_2015-03-10-15-55-41.uasset
+	VisionUE/Saved/Backup/CharacterStatWindow_2015-03-10-16-01-28.uasset
+	VisionUE/Saved/Backup/CharacterStatWindow_2015-03-10-16-10-47.uasset
+	VisionUE/Saved/Backup/CharacterStatWindow_2015-03-10-16-15-56.uasset
+	VisionUE/Saved/Backup/CharacterStatWindow_2015-03-10-16-22-07.uasset
+	VisionUE/Saved/Backup/Default_2015-03-10-15-45-40.umap
+	VisionUE/Saved/Backup/Default_2015-03-10-16-12-34.umap
+	VisionUE/Saved/Backup/GM_2015-03-10-16-13-00.uasset
+	VisionUE/Saved/Backup/PC_2015-03-10-16-15-21.uasset
+	VisionUE/Saved/Backup/RpgStatControll_2015-03-10-15-49-05.uasset
+	VisionUE/Saved/Backup/RpgStatControll_2015-03-10-16-14-24.uasset
+	VisionUE/Saved/Backup/RpgStatControll_2015-03-10-16-22-20.uasset
+	VisionUE/Saved/Backup/RpgStatControll_2015-03-10-16-32-05.uasset
+	VisionUE/Saved/Backup/StatBlock_2015-03-10-15-47-16.uasset
+	VisionUE/Saved/Diff/
+	VisionUE/Saved/Logs/VisionUE-backup-2015.03.10-15.41.40.log
+	VisionUE/Saved/Logs/VisionUE-backup-2015.03.10-16.32.48.log
+
+'
+[2015.03.10-15.33.26:235][563]LogSourceControl: RunCommandInternalRaw: 'git symbolic-ref --short HEAD'
+[2015.03.10-15.33.26:249][563]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='master
+'
+[2015.03.10-15.33.26:249][563]SourceControl: Info master
+[2015.03.10-15.33.26:286][563]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/CharacterStatWindow.uasset"'
+[2015.03.10-15.33.26:297][563]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/CharacterStatWindow.uasset
+'
+[2015.03.10-15.33.26:401][563]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/CharacterStatWindow.uasset"'
+[2015.03.10-15.33.26:411][563]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/CharacterStatWindow.uasset
+'
+[2015.03.10-15.33.26:555][563]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/CharacterStatWindow.uasset" "D:/GitHub/Vision/VisionUE/Content/RpgStatControll.uasset"'
+[2015.03.10-15.33.26:575][563]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/CharacterStatWindow.uasset
+AM VisionUE/Content/RpgStatControll.uasset
+'
+[2015.03.10-15.33.26:641][563]LogBlueprint:Warning: [compiler] Warning Variable HeaderText is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
+[2015.03.10-15.33.26:648][563]LogBlueprint:Warning: [compiler] Warning [0040.12] Compile of DragableWindow successful, but with 1 Warning(s) [in 28 ms]
+[2015.03.10-15.33.26:648][563]LogBlueprint:Warning: [compiler] Warning [0040.12] Compile of DragableWindow successful, but with 2 Warning(s) [in 0 ms]
+[2015.03.10-15.33.26:679][563]LogBlueprint:Warning: [compiler] Warning [0040.15] Compile of DragableWindow successful, but with 3 Warning(s) [in 31 ms]
+[2015.03.10-15.33.26:701][563]LogBlueprint:Warning: [compiler] Warning [0040.17] Compile of DragableWindow successful, but with 4 Warning(s) [in 21 ms]
+[2015.03.10-15.33.26:701][563]LogBlueprint:Warning: [compiler] Warning [0040.17] Compile of DragableWindow successful, but with 5 Warning(s) [in 0 ms]
+[2015.03.10-15.33.26:701][563]LogBlueprint:Warning: [compiler] Warning [0040.17] Compile of DragableWindow successful, but with 6 Warning(s) [in 0 ms]
+[2015.03.10-15.33.26:702][563]LogBlueprint:Warning: [compiler] Warning [0040.17] Compile of DragableWindow successful, but with 7 Warning(s) [in 0 ms]
+[2015.03.10-15.33.26:702][563]LogMetaData: Removing '/Game/DragableWindow.DragableWindow_C' ref from Metadata '/Game/CharacterStatWindow.PackageMetaData'
+[2015.03.10-15.33.26:702][563]LogMetaData: Removing '/Game/DragableWindow.DragableWindow:EventGraph.K2Node_Event_114' ref from Metadata '/Game/CharacterStatWindow.PackageMetaData'
+[2015.03.10-15.33.26:702][563]LogMetaData: Removing '/Game/DragableWindow.DragableWindow:EventGraph.K2Node_Event_115' ref from Metadata '/Game/CharacterStatWindow.PackageMetaData'
+[2015.03.10-15.33.26:702][563]LogMetaData: Removing '/Game/DragableWindow.SKEL_DragableWindow_C' ref from Metadata '/Game/CharacterStatWindow.PackageMetaData'
+[2015.03.10-15.33.26:768][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DragableWindow" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset" SILENT=true
+[2015.03.10-15.33.26:791][563]LogSavePackage: Save=19.411406ms
+[2015.03.10-15.33.26:791][563]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/DragableWindowF41697DD45A01501E262B0A0D8C444E4.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset'
+[2015.03.10-15.33.26:830][563]LogSourceControl: RunCommandInternalRaw: 'git add "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.33.26:845][563]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.10-15.33.26:845][563]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.33.26:865][563]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.33.26:902][563]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/CharacterStatWindow.uasset"'
+[2015.03.10-15.33.26:914][563]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/CharacterStatWindow.uasset
+'
+[2015.03.10-15.33.26:967][563]LogSourceControl: RunCommandInternalRaw: 'git add "D:/GitHub/Vision/VisionUE/Content/CharacterStatWindow.uasset"'
+[2015.03.10-15.33.26:983][563]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.10-15.33.27:092][563]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/CharacterStatWindow.uasset"'
+[2015.03.10-15.33.27:108][563]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  VisionUE/Content/CharacterStatWindow.uasset
+'
+[2015.03.10-15.33.27:230][563]LogSourceControl: RunCommandInternalRaw: 'git reset "D:/GitHub/Vision/VisionUE/Content/CharacterStatWindow.uasset"'
+[2015.03.10-15.33.27:244][563]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='Unstaged changes after reset:
+M	VisionUE/Content/Default.umap
+M	VisionUE/Content/GM.uasset
+M	VisionUE/Content/PC.uasset
+M	VisionUE/Content/RpgStatControll.uasset
+M	VisionUE/Content/StatBlock.uasset
+M	VisionUE/Intermediate/CachedAssetRegistry.bin
+M	VisionUE/Intermediate/ReimportCache/3688439234.bin
+M	VisionUE/Saved/Config/Windows/Editor.ini
+M	VisionUE/Saved/Config/Windows/EditorLayout.ini
+M	VisionUE/Saved/Config/Windows/EditorUserSettings.ini
+M	VisionUE/Saved/Config/Windows/Engine.ini
+M	VisionUE/Saved/Config/Windows/SourceControlSettings.ini
+M	VisionUE/Saved/Logs/VisionUE.log
+'
+[2015.03.10-15.33.27:244][563]LogSourceControl: RunCommandInternalRaw: 'git checkout "D:/GitHub/Vision/VisionUE/Content/CharacterStatWindow.uasset"'
+[2015.03.10-15.33.27:251][563]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=1 OutResults=''
+[2015.03.10-15.33.27:251][563]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=1 OutErrors='error: pathspec 'D:/GitHub/Vision/VisionUE/Content/CharacterStatWindow.uasset' did not match any file(s) known to git.
+'
+[2015.03.10-15.33.27:251][563]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/CharacterStatWindow.uasset"'
+[2015.03.10-15.33.27:265][563]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='?? VisionUE/Content/CharacterStatWindow.uasset
+'
+[2015.03.10-15.33.27:265][563]SourceControl:Error: Error error: pathspec 'D:/GitHub/Vision/VisionUE/Content/CharacterStatWindow.uasset' did not match any file(s) known to git.
+[2015.03.10-15.33.27:302][563]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/RpgStatControll.uasset"'
+[2015.03.10-15.33.27:314][563]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/RpgStatControll.uasset
+'
+[2015.03.10-15.33.27:390][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RpgStatControll" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/RpgStatControll.uasset" SILENT=true
+[2015.03.10-15.33.27:438][563]LogSavePackage: Save=44.200871ms
+[2015.03.10-15.33.27:438][563]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/RpgStatControll80874FF44830AF5C7BC6889027CE0388.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/RpgStatControll.uasset'
+[2015.03.10-15.33.27:475][564]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/CharacterStatWindow.uasset" "D:/GitHub/Vision/VisionUE/Content/RpgStatControll.uasset" "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.33.27:475][564]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  VisionUE/Content/DragableWindow.uasset
+AM VisionUE/Content/RpgStatControll.uasset
+'
+[2015.03.10-15.33.28:488][598]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.33.28:494][598]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.34.12:610][  8]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.34.12:624][  8]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.34.12:703][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DragableWindow" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset" SILENT=true
+[2015.03.10-15.34.12:736][  8]LogSavePackage: Save=26.708143ms
+[2015.03.10-15.34.12:736][  8]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/DragableWindow3917A0D74AF869B3D21F5392A205FEC2.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset'
+[2015.03.10-15.34.12:748][  9]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.34.12:762][ 11]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.34.13:068][ 44]BlueprintLog: New page: Compile DragableWindow
+[2015.03.10-15.34.13:086][ 44]LogBlueprint:Warning: [compiler] Warning Variable HeaderText is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
+[2015.03.10-15.34.13:172][ 44]LogBlueprint:Warning: [compiler] Warning [0086.64] Compile of DragableWindow successful, but with 1 Warning(s) [in 104 ms]
+[2015.03.10-15.34.13:173][ 44]BlueprintEditorCompileResults:Warning: Warning Variable HeaderText is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
+[2015.03.10-15.34.13:173][ 44]BlueprintEditorCompileResults:Warning: Warning [0086.64] Compile of DragableWindow successful, but with 1 Warning(s) [in 104 ms]
+[2015.03.10-15.34.22:313][ 11]BlueprintLog: New page: Compile DragableWindow
+[2015.03.10-15.34.22:419][ 11]BlueprintEditorCompileResults: Info [0095.89] Compile of DragableWindow successful! [in 106 ms]
+[2015.03.10-15.34.22:954][ 61]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.34.22:965][ 61]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.34.23:039][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DragableWindow" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset" SILENT=true
+[2015.03.10-15.34.23:070][ 61]LogSavePackage: Save=26.974098ms
+[2015.03.10-15.34.23:070][ 61]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/DragableWindowF2419588408D6D0566410E865CE6DCED.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset'
+[2015.03.10-15.34.23:083][ 62]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.34.23:090][ 63]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.34.53:792][254]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.10-15.34.53:796][254]LogPlayLevel: [PIE] Compiling RpgStatControll before PIE...
+[2015.03.10-15.34.53:869][254]LogPlayLevel: [PIE] Compiling DragableWindow before PIE...
+[2015.03.10-15.34.53:969][254]LogPlayLevel: PIE:  Blueprint regeneration took 177 ms (2 blueprints)
+[2015.03.10-15.34.53:969][254]PIE: New page: PIE session: Untitled_1 (Mar 10, 2015, 5:34:53 PM)
+[2015.03.10-15.34.53:973][254]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002821s)
+[2015.03.10-15.34.53:974][254]LogPlayLevel: PIE: World Init took: (0.000924s)
+[2015.03.10-15.34.53:974][254]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003929s)
+[2015.03.10-15.34.54:030][254]LogWorld: Game class is 'GameMode'
+[2015.03.10-15.34.54:033][254]LogAIModule: Creating AISystem for world Untitled_1
+[2015.03.10-15.34.54:036][254]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2015.03.10-16.34.54
+[2015.03.10-15.34.54:037][254]LogWorld: Bringing up level for play took: 0.002467
+[2015.03.10-15.34.54:041][254]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.144
+[2015.03.10-15.34.54:065][254]LogRenderer:Warning: Reallocating scene render targets to support 1296x760 (Frame:595).
+[2015.03.10-15.34.55:331][272]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001BB9CA40
+[2015.03.10-15.34.56:892][437]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.03.10-15.34.56:893][437]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.03.10-15.34.57:926][469]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/Default.umap" "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset" "D:/GitHub/Vision/VisionUE/Content/FOnt.uasset" "D:/GitHub/Vision/VisionUE/Content/GM.uasset" "D:/GitHub/Vision/VisionUE/Content/PC.uasset" "D:/GitHub/Vision/VisionUE/Content/RpgStatControll.uasset" "D:/GitHub/Vision/VisionUE/Content/StatBlock.uasset"'
+[2015.03.10-15.34.57:930][469]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M VisionUE/Content/Default.umap
+AM VisionUE/Content/DragableWindow.uasset
+A  VisionUE/Content/FOnt.uasset
+AM VisionUE/Content/GM.uasset
+AM VisionUE/Content/PC.uasset
+AM VisionUE/Content/RpgStatControll.uasset
+AM VisionUE/Content/StatBlock.uasset
+'
+[2015.03.10-15.35.01:637][521]Cmd: MAP LOAD FILE="../../../../../../../GitHub/Vision/VisionUE/Content/Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.10-15.35.01:638][521]LightingResults: New page: Lighting Build
+[2015.03.10-15.35.01:666][521]LoadErrors: New page: Loading map: Default.umap
+[2015.03.10-15.35.01:666][521]MapCheck: New page: Map Check
+[2015.03.10-15.35.01:666][521]LightingResults: New page: Lighting Build
+[2015.03.10-15.35.01:688][521]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000EF56700
+[2015.03.10-15.35.01:743][521]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.10-15.35.01:743][521]LogAIModule: Creating AISystem for world Default
+[2015.03.10-15.35.01:773][521]Cmd: MAP CHECKDEP
+[2015.03.10-15.35.01:773][521]MapCheck: New page: Default - Mar 10, 2015, 5:35:01 PM
+[2015.03.10-15.35.01:857][521]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 83.125ms to complete.
+[2015.03.10-15.35.01:858][521]LogFileHelpers: Loading map 'Default' took 0.223
+[2015.03.10-15.35.02:677][547]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/Default.umap"'
+[2015.03.10-15.35.02:687][547]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M VisionUE/Content/Default.umap
+'
+[2015.03.10-15.35.02:768][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Default" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/Default.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.03.10-15.35.02:848][547]LogSavePackage: Save=46.120388ms
+[2015.03.10-15.35.02:848][547]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/DefaultDD01C4964056D39BA239CABF2D65F995.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/Default.umap'
+[2015.03.10-15.35.02:892][548]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/Default.umap"'
+[2015.03.10-15.35.02:903][549]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M VisionUE/Content/Default.umap
+'
+[2015.03.10-15.35.03:898][578]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.35.03:910][578]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.35.03:983][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DragableWindow" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset" SILENT=true
+[2015.03.10-15.35.04:022][578]LogSavePackage: Save=35.090214ms
+[2015.03.10-15.35.04:022][578]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/DragableWindow11DC4F064C39A4C754E8F68506C0F50E.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset'
+[2015.03.10-15.35.04:040][579]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.35.04:050][580]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.35.05:117][612]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.10-15.35.05:122][612]LogPlayLevel: [PIE] Compiling RpgStatControll before PIE...
+[2015.03.10-15.35.05:211][612]LogPlayLevel: PIE:  Blueprint regeneration took 94 ms (1 blueprints)
+[2015.03.10-15.35.05:211][612]PIE: New page: PIE session: Default (Mar 10, 2015, 5:35:05 PM)
+[2015.03.10-15.35.05:214][612]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002331s)
+[2015.03.10-15.35.05:215][612]LogPlayLevel: PIE: World Init took: (0.001024s)
+[2015.03.10-15.35.05:215][612]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Default.Default to /Game/UEDPIE_0_Default.Default (0.003527s)
+[2015.03.10-15.35.05:261][612]LogWorld: Game class is 'GM_C'
+[2015.03.10-15.35.05:265][612]LogAIModule: Creating AISystem for world Default
+[2015.03.10-15.35.05:267][612]LogWorld: Bringing World /Game/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2015.03.10-16.35.05
+[2015.03.10-15.35.05:268][612]LogWorld: Bringing up level for play took: 0.002382
+[2015.03.10-15.35.05:271][612]PIE: Info Play in editor start time for /Game/UEDPIE_0_Default -0.626
+[2015.03.10-15.35.07:005][672]LogBlueprintUserMessages: Draggggg
+[2015.03.10-15.35.08:432][722]LogBlueprintUserMessages: Draggggg
+[2015.03.10-15.35.08:801][735]LogBlueprintUserMessages: Draggggg
+[2015.03.10-15.35.09:171][748]LogBlueprintUserMessages: Draggggg
+[2015.03.10-15.35.10:340][789]LogBlueprintUserMessages: Draggggg
+[2015.03.10-15.35.11:077][815]LogBlueprintUserMessages: Draggggg
+[2015.03.10-15.35.11:473][829]LogBlueprintUserMessages: Draggggg
+[2015.03.10-15.35.11:813][841]LogBlueprintUserMessages: Draggggg
+[2015.03.10-15.35.12:124][852]LogBlueprintUserMessages: Draggggg
+[2015.03.10-15.35.12:954][878]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F51F420
+[2015.03.10-15.36.24:878][873]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.36.24:892][873]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.36.24:970][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DragableWindow" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset" SILENT=true
+[2015.03.10-15.36.25:013][873]LogSavePackage: Save=38.348450ms
+[2015.03.10-15.36.25:013][873]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/DragableWindowBEC9AA8547AAE5F338B1D99ED9A2BD80.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset'
+[2015.03.10-15.36.25:025][874]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.36.25:033][875]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.36.25:417][915]BlueprintLog: New page: Compile DragableWindow
+[2015.03.10-15.36.25:529][915]BlueprintEditorCompileResults: Info [0219.00] Compile of DragableWindow successful! [in 110 ms]
+[2015.03.10-15.36.49:029][437]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.03.10-15.36.49:029][437]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.03.10-15.36.49:031][437]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/DragableWindow.DragableWindow:EventGraph.K2Node_CallFunction_1941 or K2Node_CallFunction /Game/DragableWindow.DragableWindow:EdGraph_130.K2Node_CallFunction_1941
+[2015.03.10-15.36.49:031][437]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/DragableWindow.DragableWindow:EventGraph.K2Node_CallFunction_1941 or K2Node_CallFunction /Game/DragableWindow.DragableWindow:EdGraph_127.K2Node_CallFunction_1941
+[2015.03.10-15.36.49:031][437]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/DragableWindow.DragableWindow:EventGraph.K2Node_CallFunction_1941 or K2Node_CallFunction /Game/DragableWindow.DragableWindow:On_HeadBorder_MouseButtonDown_0.K2Node_CallFunction_1941
+[2015.03.10-15.36.49:031][437]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/DragableWindow.DragableWindow:EdGraph_130.K2Node_CallFunction_1941.EdGraphPin_14079 or EdGraphPin /Game/DragableWindow.DragableWindow:EdGraph_127.K2Node_CallFunction_1941.EdGraphPin_14079
+[2015.03.10-15.36.49:031][437]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/DragableWindow.DragableWindow:EdGraph_130.K2Node_CallFunction_1941.EdGraphPin_14079 or EdGraphPin /Game/DragableWindow.DragableWindow:On_HeadBorder_MouseButtonDown_0.K2Node_CallFunction_1941.EdGraphPin_14079
+[2015.03.10-15.37.20:449][352]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.37.20:460][352]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.37.20:568][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DragableWindow" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset" SILENT=true
+[2015.03.10-15.37.20:620][352]LogSavePackage: Save=46.849251ms
+[2015.03.10-15.37.20:620][352]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/DragableWindow3DE30C8B4BB6C419D38318903F35CD16.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset'
+[2015.03.10-15.37.20:633][353]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.37.20:642][354]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.37.20:951][387]BlueprintLog: New page: Compile DragableWindow
+[2015.03.10-15.37.21:062][387]BlueprintEditorCompileResults: Info [0274.54] Compile of DragableWindow successful! [in 111 ms]
+[2015.03.10-15.37.26:249][907]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.10-15.37.26:253][907]LogPlayLevel: [PIE] Compiling RpgStatControll before PIE...
+[2015.03.10-15.37.26:344][907]LogPlayLevel: PIE:  Blueprint regeneration took 95 ms (1 blueprints)
+[2015.03.10-15.37.26:344][907]PIE: New page: PIE session: Default (Mar 10, 2015, 5:37:26 PM)
+[2015.03.10-15.37.26:347][907]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002783s)
+[2015.03.10-15.37.26:348][907]LogPlayLevel: PIE: World Init took: (0.000956s)
+[2015.03.10-15.37.26:348][907]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Default.Default to /Game/UEDPIE_0_Default.Default (0.003910s)
+[2015.03.10-15.37.26:392][907]LogWorld: Game class is 'GM_C'
+[2015.03.10-15.37.26:395][907]LogAIModule: Creating AISystem for world Default
+[2015.03.10-15.37.26:398][907]LogWorld: Bringing World /Game/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2015.03.10-16.37.26
+[2015.03.10-15.37.26:399][907]LogWorld: Bringing up level for play took: 0.002417
+[2015.03.10-15.37.26:405][907]PIE: Info Play in editor start time for /Game/UEDPIE_0_Default 0.512
+[2015.03.10-15.37.33:333][ 15]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026BB1EE0
+[2015.03.10-15.37.34:718][145]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.37.34:730][145]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.37.34:838][145]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DragableWindow" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset" SILENT=true
+[2015.03.10-15.37.34:891][145]LogSavePackage: Save=48.163662ms
+[2015.03.10-15.37.34:891][145]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/DragableWindow3CEB404F40A5B87BB0AF92820E473AF6.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset'
+[2015.03.10-15.37.34:904][146]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.37.34:913][147]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.37.58:857][649]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.37.58:869][649]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.37.58:978][649]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DragableWindow" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset" SILENT=true
+[2015.03.10-15.37.59:030][649]LogSavePackage: Save=47.443180ms
+[2015.03.10-15.37.59:030][649]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/DragableWindowD0017A734DE86615AA056293D1997807.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset'
+[2015.03.10-15.37.59:043][650]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.37.59:051][651]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.38.23:582][143]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.38.23:593][143]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.38.23:668][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DragableWindow" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset" SILENT=true
+[2015.03.10-15.38.23:719][143]LogSavePackage: Save=47.050674ms
+[2015.03.10-15.38.23:719][143]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/DragableWindow09EFFEE042A9A0DF8CBD3B96634B620E.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset'
+[2015.03.10-15.38.23:735][144]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.38.23:745][145]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.38.30:181][792]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.10-15.38.30:203][792]LogPlayLevel: [PIE] Compiling DragableWindow before PIE...
+[2015.03.10-15.38.30:302][792]LogPlayLevel: [PIE] Compiling RpgStatControll before PIE...
+[2015.03.10-15.38.30:393][792]LogPlayLevel: PIE:  Blueprint regeneration took 212 ms (2 blueprints)
+[2015.03.10-15.38.30:394][792]PIE: New page: PIE session: Default (Mar 10, 2015, 5:38:30 PM)
+[2015.03.10-15.38.30:397][792]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002163s)
+[2015.03.10-15.38.30:398][792]LogPlayLevel: PIE: World Init took: (0.001411s)
+[2015.03.10-15.38.30:398][792]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Default.Default to /Game/UEDPIE_0_Default.Default (0.003749s)
+[2015.03.10-15.38.30:444][792]LogWorld: Game class is 'GM_C'
+[2015.03.10-15.38.30:448][792]LogAIModule: Creating AISystem for world Default
+[2015.03.10-15.38.30:450][792]LogWorld: Bringing World /Game/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2015.03.10-16.38.30
+[2015.03.10-15.38.30:451][792]LogWorld: Bringing up level for play took: 0.002465
+[2015.03.10-15.38.30:456][792]PIE: Info Play in editor start time for /Game/UEDPIE_0_Default 0.565
+[2015.03.10-15.38.30:471][792]LogPropertyNode: Object is invalid Slot
+[2015.03.10-15.38.30:471][792]LogPropertyNode: Object is invalid Navigation
+[2015.03.10-15.38.35:724][874]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CCC2DE0
+[2015.03.10-15.38.41:422][447]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.10-15.38.41:444][447]LogPlayLevel: [PIE] Compiling DragableWindow before PIE...
+[2015.03.10-15.38.41:544][447]LogPlayLevel: [PIE] Compiling RpgStatControll before PIE...
+[2015.03.10-15.38.41:637][447]LogPlayLevel: PIE:  Blueprint regeneration took 214 ms (2 blueprints)
+[2015.03.10-15.38.41:637][447]PIE: New page: PIE session: Default (Mar 10, 2015, 5:38:41 PM)
+[2015.03.10-15.38.41:640][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002118s)
+[2015.03.10-15.38.41:641][447]LogPlayLevel: PIE: World Init took: (0.001228s)
+[2015.03.10-15.38.41:642][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Default.Default to /Game/UEDPIE_0_Default.Default (0.003537s)
+[2015.03.10-15.38.41:691][447]LogWorld: Game class is 'GM_C'
+[2015.03.10-15.38.41:694][447]LogAIModule: Creating AISystem for world Default
+[2015.03.10-15.38.41:697][447]LogWorld: Bringing World /Game/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2015.03.10-16.38.41
+[2015.03.10-15.38.41:697][447]LogWorld: Bringing up level for play took: 0.002325
+[2015.03.10-15.38.41:703][447]PIE: Info Play in editor start time for /Game/UEDPIE_0_Default -0.188
+[2015.03.10-15.38.41:717][447]LogPropertyNode: Object is invalid Slot
+[2015.03.10-15.38.41:717][447]LogPropertyNode: Object is invalid Navigation
+[2015.03.10-15.38.45:124][500]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017282840
+[2015.03.10-15.38.46:073][595]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.38.46:086][595]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.38.46:190][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DragableWindow" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset" SILENT=true
+[2015.03.10-15.38.46:242][595]LogSavePackage: Save=47.977325ms
+[2015.03.10-15.38.46:242][595]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/DragableWindow149DB6814BE6BC1F37FAC79B96409485.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset'
+[2015.03.10-15.38.46:258][596]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.38.46:269][597]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.39.06:589][472]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.39.06:601][472]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.39.06:696][472]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DragableWindow" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset" SILENT=true
+[2015.03.10-15.39.06:743][472]LogSavePackage: Save=43.215828ms
+[2015.03.10-15.39.06:743][472]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/DragableWindow5796BDDB4374640207C18EAAEACFF232.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset'
+[2015.03.10-15.39.06:754][473]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.39.06:761][474]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.39.07:073][509]BlueprintLog: New page: Compile DragableWindow
+[2015.03.10-15.39.07:184][509]BlueprintEditorCompileResults: Info [0380.66] Compile of DragableWindow successful! [in 111 ms]
+[2015.03.10-15.39.37:814][539]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.39.37:824][539]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.39.37:937][539]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DragableWindow" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset" SILENT=true
+[2015.03.10-15.39.37:991][539]LogSavePackage: Save=46.167599ms
+[2015.03.10-15.39.37:991][539]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/DragableWindow7D40B7E0446476E8F36DEDB81EFC91EF.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset'
+[2015.03.10-15.39.38:004][540]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.39.38:011][541]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.39.38:552][600]BlueprintLog: New page: Compile DragableWindow
+[2015.03.10-15.39.38:670][600]BlueprintEditorCompileResults: Info [0412.15] Compile of DragableWindow successful! [in 117 ms]
+[2015.03.10-15.39.49:816][764]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.39.49:828][764]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.39.49:907][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DragableWindow" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset" SILENT=true
+[2015.03.10-15.39.49:958][764]LogSavePackage: Save=46.815449ms
+[2015.03.10-15.39.49:958][764]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/DragableWindow8A72616C45ECD4D670BDC4806F697A8F.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset'
+[2015.03.10-15.39.49:971][765]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.39.49:979][766]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.39.50:390][811]BlueprintLog: New page: Compile DragableWindow
+[2015.03.10-15.39.50:506][811]BlueprintEditorCompileResults: Info [0423.99] Compile of DragableWindow successful! [in 116 ms]
+[2015.03.10-15.39.58:757][658]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.39.58:769][658]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.39.58:875][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DragableWindow" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset" SILENT=true
+[2015.03.10-15.39.58:929][658]LogSavePackage: Save=49.580044ms
+[2015.03.10-15.39.58:929][658]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/DragableWindow61DB6A98424146BFF99314B4883C9445.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset'
+[2015.03.10-15.39.58:943][659]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.39.58:950][660]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.39.59:236][692]BlueprintLog: New page: Compile DragableWindow
+[2015.03.10-15.39.59:350][692]BlueprintEditorCompileResults: Info [0432.83] Compile of DragableWindow successful! [in 113 ms]
+[2015.03.10-15.40.00:171][779]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.10-15.40.00:176][779]LogPlayLevel: [PIE] Compiling RpgStatControll before PIE...
+[2015.03.10-15.40.00:268][779]LogPlayLevel: PIE:  Blueprint regeneration took 97 ms (1 blueprints)
+[2015.03.10-15.40.00:269][779]PIE: New page: PIE session: Default (Mar 10, 2015, 5:40:00 PM)
+[2015.03.10-15.40.00:272][779]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002342s)
+[2015.03.10-15.40.00:273][779]LogPlayLevel: PIE: World Init took: (0.000924s)
+[2015.03.10-15.40.00:273][779]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Default.Default to /Game/UEDPIE_0_Default.Default (0.003438s)
+[2015.03.10-15.40.00:316][779]LogWorld: Game class is 'GM_C'
+[2015.03.10-15.40.00:319][779]LogAIModule: Creating AISystem for world Default
+[2015.03.10-15.40.00:322][779]LogWorld: Bringing World /Game/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2015.03.10-16.40.00
+[2015.03.10-15.40.00:323][779]LogWorld: Bringing up level for play took: 0.002470
+[2015.03.10-15.40.00:328][779]PIE: Info Play in editor start time for /Game/UEDPIE_0_Default 0.44
+[2015.03.10-15.40.07:010][882]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CDA62A0
+[2015.03.10-15.40.07:830][969]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.40.07:841][969]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.40.07:945][969]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DragableWindow" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset" SILENT=true
+[2015.03.10-15.40.07:999][969]LogSavePackage: Save=49.743473ms
+[2015.03.10-15.40.07:999][969]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/DragableWindow27DEEE8B4BDCA5E845D7DE9E1DFB511C.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset'
+[2015.03.10-15.40.08:009][970]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.40.08:016][971]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.40.25:509][714]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.40.25:521][714]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.40.25:599][714]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DragableWindow" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset" SILENT=true
+[2015.03.10-15.40.25:654][714]LogSavePackage: Save=50.670963ms
+[2015.03.10-15.40.25:654][714]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/DragableWindowBB029E3B4457457FD9A4BBAE1AD8322D.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset'
+[2015.03.10-15.40.25:668][715]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.40.25:679][716]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.40.26:152][765]BlueprintLog: New page: Compile DragableWindow
+[2015.03.10-15.40.26:275][765]BlueprintEditorCompileResults: Info [0459.76] Compile of DragableWindow successful! [in 123 ms]
+[2015.03.10-15.41.02:861][199]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.41.02:875][199]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.41.02:959][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DragableWindow" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset" SILENT=true
+[2015.03.10-15.41.03:013][199]LogSavePackage: Save=50.013897ms
+[2015.03.10-15.41.03:013][199]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/DragableWindow747BD3174C56FA269ECDD497A438C56E.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset'
+[2015.03.10-15.41.03:027][200]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.41.03:036][201]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.41.03:398][239]BlueprintLog: New page: Compile DragableWindow
+[2015.03.10-15.41.03:527][239]BlueprintEditorCompileResults: Info [0497.01] Compile of DragableWindow successful! [in 129 ms]
+[2015.03.10-15.41.35:731][367]BlueprintLog: New page: Compile DragableWindow
+[2015.03.10-15.41.35:848][367]BlueprintEditorCompileResults: Info [0529.33] Compile of DragableWindow successful! [in 116 ms]
+[2015.03.10-15.41.37:146][496]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.41.37:157][496]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.41.37:217][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DragableWindow" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset" SILENT=true
+[2015.03.10-15.41.37:272][496]LogSavePackage: Save=50.385452ms
+[2015.03.10-15.41.37:272][496]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/DragableWindow53FDDB034926077C7356B799B18DD40E.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset'
+[2015.03.10-15.41.37:286][497]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.41.37:293][498]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.41.44:040][135]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.41.44:051][135]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.41.44:136][135]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DragableWindow" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset" SILENT=true
+[2015.03.10-15.41.44:191][135]LogSavePackage: Save=50.450546ms
+[2015.03.10-15.41.44:191][135]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/DragableWindow642608434D90583EF9EE0DB9A3238DF0.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset'
+[2015.03.10-15.41.44:206][136]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.41.44:213][137]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.41.44:607][180]BlueprintLog: New page: Compile DragableWindow
+[2015.03.10-15.41.44:636][180]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.03.10-15.41.44:785][180]LogBlueprint:Warning: [compiler] Warning [0538.27] Compile of DragableWindow failed. 1 Fatal Issue(s) 0 Warning(s) [in 178 ms]
+[2015.03.10-15.41.44:786][180]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.03.10-15.41.44:786][180]BlueprintEditorCompileResults:Warning: Warning [0538.27] Compile of DragableWindow failed. 1 Fatal Issue(s) 0 Warning(s) [in 178 ms]
+[2015.03.10-15.41.58:124][547]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.41.58:135][547]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.41.58:240][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DragableWindow" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset" SILENT=true
+[2015.03.10-15.41.58:292][547]LogSavePackage: Save=48.690544ms
+[2015.03.10-15.41.58:292][547]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/DragableWindow1E34F6D34B8231202AF780BEBC4D2CAD.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset'
+[2015.03.10-15.41.58:305][548]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.41.58:313][549]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.41.58:678][590]BlueprintLog: New page: Compile DragableWindow
+[2015.03.10-15.41.58:797][590]BlueprintEditorCompileResults: Info [0552.28] Compile of DragableWindow successful! [in 118 ms]
+[2015.03.10-15.42.15:937][162]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.42.15:949][162]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.42.16:044][162]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DragableWindow" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset" SILENT=true
+[2015.03.10-15.42.16:098][162]LogSavePackage: Save=49.674191ms
+[2015.03.10-15.42.16:098][162]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/DragableWindow68445F364E0E29B8EE275690804F463B.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset'
+[2015.03.10-15.42.16:112][163]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.42.16:121][164]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.42.34:382][111]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.42.34:394][111]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.42.34:465][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DragableWindow" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset" SILENT=true
+[2015.03.10-15.42.34:519][111]LogSavePackage: Save=48.867664ms
+[2015.03.10-15.42.34:519][111]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/DragableWindow685A6835456757DEC8447CA374F90356.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset'
+[2015.03.10-15.42.34:533][112]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.42.34:541][113]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.42.58:251][585]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.42.58:263][585]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.42.58:355][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DragableWindow" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset" SILENT=true
+[2015.03.10-15.42.58:409][585]LogSavePackage: Save=48.915436ms
+[2015.03.10-15.42.58:409][585]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/DragableWindow22E755F14D0A1E89E57D30AF1CC6311B.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset'
+[2015.03.10-15.42.58:422][586]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.42.58:430][587]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.42.58:944][643]BlueprintLog: New page: Compile DragableWindow
+[2015.03.10-15.42.59:060][643]BlueprintEditorCompileResults: Info [0612.55] Compile of DragableWindow successful! [in 116 ms]
+[2015.03.10-15.43.46:153][268]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.43.46:166][268]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.43.46:251][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DragableWindow" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset" SILENT=true
+[2015.03.10-15.43.46:304][268]LogSavePackage: Save=49.389236ms
+[2015.03.10-15.43.46:304][268]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/DragableWindowC2AC199D4732F27CF8B0289D1DBA0347.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset'
+[2015.03.10-15.43.46:316][269]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.43.46:324][270]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.44.09:271][555]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.44.09:283][555]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.44.09:374][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DragableWindow" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset" SILENT=true
+[2015.03.10-15.44.09:427][555]LogSavePackage: Save=49.737328ms
+[2015.03.10-15.44.09:427][555]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/DragableWindow0F8C6DBA4942E3280A23218DE22BBA43.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset'
+[2015.03.10-15.44.09:440][556]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.44.09:446][557]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.44.20:959][651]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.44.20:971][651]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.44.21:077][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DragableWindow" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset" SILENT=true
+[2015.03.10-15.44.21:130][651]LogSavePackage: Save=49.946293ms
+[2015.03.10-15.44.21:130][651]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/DragableWindow7B6D5B54410EDF5DA60929A35DFEB280.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset'
+[2015.03.10-15.44.21:142][652]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.44.21:149][653]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.44.21:499][692]BlueprintLog: New page: Compile DragableWindow
+[2015.03.10-15.44.21:615][692]BlueprintEditorCompileResults: Info [0695.10] Compile of DragableWindow successful! [in 115 ms]
+[2015.03.10-15.44.42:331][945]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.44.42:342][945]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.44.42:449][945]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DragableWindow" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset" SILENT=true
+[2015.03.10-15.44.42:505][945]LogSavePackage: Save=49.985405ms
+[2015.03.10-15.44.42:505][945]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/DragableWindowD4F176DC43AA6D2258A934B997D6F651.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset'
+[2015.03.10-15.44.42:516][946]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.44.42:523][947]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.44.44:230][137]BlueprintLog: New page: Compile DragableWindow
+[2015.03.10-15.44.44:347][137]BlueprintEditorCompileResults: Info [0717.84] Compile of DragableWindow successful! [in 116 ms]
+[2015.03.10-15.45.02:594][944]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.10-15.45.02:599][944]LogPlayLevel: [PIE] Compiling RpgStatControll before PIE...
+[2015.03.10-15.45.02:677][944]LogPlayLevel: [PIE] Compiling DragableWindow before PIE...
+[2015.03.10-15.45.02:791][944]LogPlayLevel: PIE:  Blueprint regeneration took 197 ms (2 blueprints)
+[2015.03.10-15.45.02:791][944]PIE: New page: PIE session: Default (Mar 10, 2015, 5:45:02 PM)
+[2015.03.10-15.45.02:795][944]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002722s)
+[2015.03.10-15.45.02:795][944]LogPlayLevel: PIE: World Init took: (0.000937s)
+[2015.03.10-15.45.02:796][944]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Default.Default to /Game/UEDPIE_0_Default.Default (0.003833s)
+[2015.03.10-15.45.02:833][944]LogWorld: Game class is 'GM_C'
+[2015.03.10-15.45.02:837][944]LogAIModule: Creating AISystem for world Default
+[2015.03.10-15.45.02:839][944]LogWorld: Bringing World /Game/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2015.03.10-16.45.02
+[2015.03.10-15.45.02:840][944]LogWorld: Bringing up level for play took: 0.002362
+[2015.03.10-15.45.02:845][944]PIE: Info Play in editor start time for /Game/UEDPIE_0_Default 0.966
+[2015.03.10-15.45.03:823][958]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001D0859E0
+[2015.03.10-15.45.07:934][379]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.10-15.45.07:938][379]LogPlayLevel: [PIE] Compiling RpgStatControll before PIE...
+[2015.03.10-15.45.08:015][379]LogPlayLevel: [PIE] Compiling DragableWindow before PIE...
+[2015.03.10-15.45.08:129][379]LogPlayLevel: PIE:  Blueprint regeneration took 195 ms (2 blueprints)
+[2015.03.10-15.45.08:129][379]PIE: New page: PIE session: Default (Mar 10, 2015, 5:45:08 PM)
+[2015.03.10-15.45.08:132][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002254s)
+[2015.03.10-15.45.08:133][379]LogPlayLevel: PIE: World Init took: (0.001547s)
+[2015.03.10-15.45.08:133][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Default.Default to /Game/UEDPIE_0_Default.Default (0.003963s)
+[2015.03.10-15.45.08:174][379]LogWorld: Game class is 'GM_C'
+[2015.03.10-15.45.08:178][379]LogAIModule: Creating AISystem for world Default
+[2015.03.10-15.45.08:180][379]LogWorld: Bringing World /Game/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2015.03.10-16.45.08
+[2015.03.10-15.45.08:181][379]LogWorld: Bringing up level for play took: 0.002363
+[2015.03.10-15.45.08:186][379]PIE: Info Play in editor start time for /Game/UEDPIE_0_Default 0.307
+[2015.03.10-15.45.09:355][396]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002B073600
+[2015.03.10-15.45.10:547][520]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.45.10:559][520]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.45.10:656][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DragableWindow" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset" SILENT=true
+[2015.03.10-15.45.10:711][520]LogSavePackage: Save=51.883690ms
+[2015.03.10-15.45.10:711][520]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/DragableWindowA6F0C30448A68E54A7CF19BD9B398FFD.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset'
+[2015.03.10-15.45.10:726][521]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.45.10:735][522]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.45.11:048][556]BlueprintLog: New page: Compile DragableWindow
+[2015.03.10-15.45.11:167][556]BlueprintEditorCompileResults: Info [0744.66] Compile of DragableWindow successful! [in 118 ms]
+[2015.03.10-15.45.11:775][618]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.10-15.45.11:780][618]LogPlayLevel: [PIE] Compiling RpgStatControll before PIE...
+[2015.03.10-15.45.11:875][618]LogPlayLevel: PIE:  Blueprint regeneration took 99 ms (1 blueprints)
+[2015.03.10-15.45.11:875][618]PIE: New page: PIE session: Default (Mar 10, 2015, 5:45:11 PM)
+[2015.03.10-15.45.11:877][618]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002275s)
+[2015.03.10-15.45.11:878][618]LogPlayLevel: PIE: World Init took: (0.000934s)
+[2015.03.10-15.45.11:878][618]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Default.Default to /Game/UEDPIE_0_Default.Default (0.003383s)
+[2015.03.10-15.45.11:922][618]LogWorld: Game class is 'GM_C'
+[2015.03.10-15.45.11:925][618]LogAIModule: Creating AISystem for world Default
+[2015.03.10-15.45.11:928][618]LogWorld: Bringing World /Game/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2015.03.10-16.45.11
+[2015.03.10-15.45.11:928][618]LogWorld: Bringing up level for play took: 0.002394
+[2015.03.10-15.45.11:934][618]PIE: Info Play in editor start time for /Game/UEDPIE_0_Default 0.055
+[2015.03.10-15.45.12:654][629]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.12:655][629]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.12:708][630]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.12:709][630]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.12:777][631]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.12:777][631]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.12:839][632]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.12:839][632]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.12:902][633]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.12:902][633]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.12:967][634]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.12:967][634]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.13:033][635]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.13:033][635]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.13:097][636]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.13:097][636]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.13:160][637]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.13:161][637]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.13:225][638]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.13:225][638]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.13:291][639]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.13:291][639]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.13:355][640]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.13:356][640]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.13:420][641]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.13:420][641]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.13:486][642]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.13:486][642]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.13:548][643]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.13:548][643]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.13:612][644]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.13:612][644]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.13:674][645]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.13:674][645]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.13:738][646]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.13:738][646]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.13:800][647]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.13:800][647]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.13:866][648]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.13:867][648]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.13:931][649]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.13:931][649]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.13:997][650]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.13:997][650]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.14:062][651]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.14:062][651]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.14:127][652]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.14:127][652]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.14:191][653]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.14:191][653]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.14:254][654]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.14:254][654]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.14:317][655]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.14:317][655]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.14:382][656]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.14:382][656]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.14:446][657]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.14:446][657]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.14:512][658]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.14:513][658]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.14:572][659]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.14:572][659]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.14:634][660]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.14:634][660]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.14:718][661]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.14:719][661]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.14:784][662]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.14:784][662]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.14:852][663]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.14:852][663]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.14:910][664]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.14:910][664]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.14:973][665]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.14:973][665]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.15:036][666]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.15:036][666]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.15:103][667]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.15:104][667]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.15:171][668]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.15:171][668]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.15:239][669]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.15:239][669]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.15:303][670]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.15:304][670]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.15:371][671]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.15:372][671]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.15:439][672]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.15:439][672]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.15:504][673]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.15:504][673]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.15:572][674]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.15:572][674]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.15:634][675]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.15:635][675]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.15:701][676]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.15:701][676]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.15:766][677]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.15:766][677]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.15:830][678]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.15:830][678]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.15:893][679]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.15:893][679]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.15:956][680]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.15:957][680]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.16:019][681]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.16:020][681]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.16:088][682]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.16:088][682]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.16:146][683]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.16:146][683]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.16:209][684]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.16:209][684]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.16:273][685]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.16:273][685]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.16:337][686]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.16:337][686]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.16:406][687]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.16:406][687]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.16:470][688]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.16:471][688]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.16:539][689]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.16:540][689]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.16:601][690]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.16:602][690]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.16:668][691]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.16:669][691]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.16:737][692]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.16:737][692]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.16:802][693]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.16:802][693]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.16:868][694]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.16:868][694]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.16:933][695]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.16:934][695]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.16:997][696]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.16:997][696]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.17:060][697]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.17:060][697]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.17:124][698]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.17:124][698]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.17:186][699]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.17:187][699]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.17:250][700]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.17:250][700]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.17:313][701]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.17:313][701]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.17:376][702]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.17:376][702]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.17:439][703]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.17:440][703]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.17:502][704]LogScript:Warning: Accessed None 'CallFunc_GetOwningPlayer_ReturnValue'
+	DragableWindow_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.DragableWindow_C_10
+	Function /Game/DragableWindow.DragableWindow_C:ExecuteUbergraph_DragableWindow:0075
+[2015.03.10-15.45.17:502][704]PIE:Error: Error Accessed None 'CallFunc_GetOwningPlayer_ReturnValue' from node ReturnNode in blueprint DragableWindow
+[2015.03.10-15.45.18:257][714]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002BACE8E0
+[2015.03.10-15.45.29:825][590]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.45.29:836][590]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.45.29:911][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DragableWindow" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset" SILENT=true
+[2015.03.10-15.45.29:966][590]LogSavePackage: Save=51.645390ms
+[2015.03.10-15.45.29:966][590]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/DragableWindow551E6E9C4411E071535E78A1E8B6EB31.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/DragableWindow.uasset'
+[2015.03.10-15.45.29:980][591]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset"'
+[2015.03.10-15.45.29:990][592]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/DragableWindow.uasset
+'
+[2015.03.10-15.45.30:612][657]BlueprintLog: New page: Compile DragableWindow
+[2015.03.10-15.45.30:729][657]BlueprintEditorCompileResults: Info [0764.22] Compile of DragableWindow successful! [in 117 ms]
+[2015.03.10-15.45.41:991][539]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Default' took 0.027
+[2015.03.10-15.46.27:058][983]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/RpgStatControll.uasset"'
+[2015.03.10-15.46.27:082][983]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/RpgStatControll.uasset
+'
+[2015.03.10-15.46.27:142][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RpgStatControll" FILE="../../../../../../../GitHub/Vision/VisionUE/Content/RpgStatControll.uasset" SILENT=true
+[2015.03.10-15.46.27:197][983]LogSavePackage: Save=47.424461ms
+[2015.03.10-15.46.27:197][983]LogSavePackage: Moving '../../../../../../../GitHub/Vision/VisionUE/Saved/RpgStatControllFAF200924D286EB0DD79F19E478A70B9.tmp' to '../../../../../../../GitHub/Vision/VisionUE/Content/RpgStatControll.uasset'
+[2015.03.10-15.46.27:209][984]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/RpgStatControll.uasset"'
+[2015.03.10-15.46.27:217][985]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM VisionUE/Content/RpgStatControll.uasset
+'
+[2015.03.10-15.46.27:499][ 15]BlueprintLog: New page: Compile RpgStatControll
+[2015.03.10-15.46.27:601][ 15]BlueprintEditorCompileResults: Info [0821.09] Compile of RpgStatControll successful! [in 102 ms]
+[2015.03.10-15.46.28:813][140]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.10-15.46.28:813][140]PIE: New page: PIE session: Default (Mar 10, 2015, 5:46:28 PM)
+[2015.03.10-15.46.28:816][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002001s)
+[2015.03.10-15.46.28:816][140]LogPlayLevel: PIE: World Init took: (0.000864s)
+[2015.03.10-15.46.28:817][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Default.Default to /Game/UEDPIE_0_Default.Default (0.003046s)
+[2015.03.10-15.46.28:856][140]LogWorld: Game class is 'GM_C'
+[2015.03.10-15.46.28:860][140]LogAIModule: Creating AISystem for world Default
+[2015.03.10-15.46.28:862][140]LogWorld: Bringing World /Game/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2015.03.10-16.46.28
+[2015.03.10-15.46.28:863][140]LogWorld: Bringing up level for play took: 0.002350
+[2015.03.10-15.46.28:863][140]LogPlayerController:Warning: Calling IsLocalController() while Player is NULL is undefined!
+[2015.03.10-15.46.28:863][140]LogPlayerController:Warning: Calling IsLocalController() while Player is NULL is undefined!
+[2015.03.10-15.46.28:863][140]LogWindows:Error: Windows GetLastError: Der Vorgang wurde erfolgreich beendet. (0)
+[2015.03.10-15.46.29:000][140]LogCrashTracker: 
+
+
+[2015.03.10-15.46.54:971][140]LogCrashTracker: 
+
+
+[2015.03.10-15.46.54:972][140]LogWindows: === Critical error: ===
+Fatal error: [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.7\Engine\Source\Runtime\CoreUObject\Private\Templates\Casts.cpp] [Line: 11] 
+Cast of nullptr to LocalPlayer failed
+
+
+KERNELBASE.dll!UnknownFunction (0x000007fefce5940d) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!FOutputDeviceWindowsError::Serialize() (0x000007feeadb8014) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsplatformoutputdevices.cpp:95]
+UE4Editor-Core.dll!FMsg::Logf__VA() (0x000007feeac376ef) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\misc\outputdevice.cpp:526]
+UE4Editor-CoreUObject.dll!CastLogError() (0x000007feeb427a43) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\coreuobject\private\templates\casts.cpp:12]
+UE4Editor-Engine.dll!CastChecked<ULocalPlayer,UPlayer>() (0x000007fee8727c7b) + 45 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\coreuobject\public\templates\casts.h:162]
+UE4Editor-Engine.dll!FLocalPlayerContext::SetPlayerController() (0x000007fee87a7c72) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\localplayer.cpp:135]
+UE4Editor-Engine.dll!FLocalPlayerContext::FLocalPlayerContext() (0x000007fee8739e4b) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\localplayer.cpp:63]
+UE4Editor-UMG.dll!CreateWidget<UUserWidget>() (0x000007fee7637146) + 13 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\umg\public\blueprint\userwidget.h:761]
+UE4Editor-UMG.dll!UWidgetBlueprintLibrary::Create() (0x000007fee76ab34e) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\umg\private\widgetblueprintlibrary.cpp:34]
+UE4Editor-UMG.dll!UWidgetBlueprintLibrary::execCreate() (0x000007fee77c00ba) + 234 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\umg\public\blueprint\widgetblueprintlibrary.h:16]
+UE4Editor-CoreUObject.dll!UFunction::Invoke() (0x000007feeb451f64) + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\coreuobject\private\uobject\class.cpp:3684]
+UE4Editor-CoreUObject.dll!UObject::CallFunction() (0x000007feeb51f538) + 20 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:395]
+UE4Editor-CoreUObject.dll!UObject::ProcessContextOpcode() (0x000007feeb53dfad) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:1451]
+UE4Editor-CoreUObject.dll!UObject::execLetObj() (0x000007feeb55c1ee) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:1292]
+UE4Editor-CoreUObject.dll!UObject::ProcessInternal() (0x000007feeb53f72c) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:602]
+UE4Editor-CoreUObject.dll!UObject::CallFunction() (0x000007feeb51fb73) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:516]
+UE4Editor-CoreUObject.dll!UObject::ProcessInternal() (0x000007feeb53f72c) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:602]
+UE4Editor-CoreUObject.dll!UFunction::Invoke() (0x000007feeb451f64) + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\coreuobject\private\uobject\class.cpp:3684]
+UE4Editor-CoreUObject.dll!UObject::ProcessEvent() (0x000007feeb53eddc) + 29 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:924]
+UE4Editor-Engine.dll!UActorComponent::InitializeComponent() (0x000007fee8389b3c) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\actorcomponent.cpp:560]
+UE4Editor-Engine.dll!AActor::InitializeComponents() (0x000007fee8389c55) + 9 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\actor.cpp:3359]
+UE4Editor-Engine.dll!AActor::PostActorConstruction() (0x000007fee8392bfe) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\actor.cpp:2346]
+UE4Editor-Engine.dll!AActor::PostSpawnInitialize() (0x000007fee8394bc8) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\actor.cpp:2313]
+UE4Editor-Engine.dll!UWorld::SpawnActor() (0x000007fee871c842) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\levelactor.cpp:336]
+UE4Editor-Engine.dll!AGameMode::SpawnPlayerController() (0x000007fee859f850) + 87 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\gamemode.cpp:1282]
+UE4Editor-Engine.dll!AGameMode::Login() (0x000007fee858b778) + 26 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\gamemode.cpp:1034]
+UE4Editor-Engine.dll!UWorld::SpawnPlayActor() (0x000007fee871cd21) + 183 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\levelactor.cpp:580]
+UE4Editor-Engine.dll!ULocalPlayer::SpawnPlayActor() (0x000007fee87a8e03) + 51 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\localplayer.cpp:241]
+UE4Editor-Engine.dll!UGameInstance::StartPIEGameInstance() (0x000007fee85a055c) + 44 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\gameinstance.cpp:198]
+UE4Editor-UnrealEd.dll!UEditorEngine::CreatePIEGameInstance() (0x000007fee6110964) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\playlevel.cpp:2861]
+UE4Editor-UnrealEd.dll!UEditorEngine::PlayInEditor() (0x000007fee6159360) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\playlevel.cpp:2212]
+UE4Editor-UnrealEd.dll!UEditorEngine::StartQueuedPlayMapRequest() (0x000007fee6174cd3) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\playlevel.cpp:974]
+UE4Editor-UnrealEd.dll!UEditorEngine::Tick() (0x000007fee5eadd24) + 13 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\editor.cpp:1226]
+UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() (0x000007fee6368186) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\unrealedengine.cpp:347]
+UE4Editor.exe!FEngineLoop::Tick() (0x000000013f950263) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\launchengineloop.cpp:2257]
+UE4Editor.exe!GuardedMain() (0x000000013f94267c) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\launch.cpp:142]
+UE4Editor.exe!GuardedMainWrapper() (0x000000013f9426ea) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x000000013f952219) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x000000013f953159) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+kernel32.dll!UnknownFunction (0x0000000076e859ed) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x0000000076fbc541) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x0000000076fbc541) + 0 bytes [UnknownFile:0]
+
+
+[2015.03.10-15.46.55:083][140]LogExit: Executing StaticShutdownAfterError
+[2015.03.10-15.46.55:086][140]LogOutputDevice:Warning: 
+
+Script Stack:
+RpgStatControll_C.ExecuteUbergraph_RpgStatControll
+RpgStatControll_C.ReceiveInitializeComponent
+
+[2015.03.10-15.46.55:090][140]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.03.10-15.46.55:090][140]Log file closed, 03/10/15 16:46:55

@@ -1,0 +1,273 @@
+﻿Log file open, 03/10/15 16:47:01
+LogInit:Display: Running engine for game: VisionUE
+LogInit: Version: 4.7.2-2467323+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Mar  2 2015 23:16:34
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: D:/Programme/Epic/Unreal Engine/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.03.10-15.47.01:902][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.03.10-15.47.01:957][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.03.10-15.47.01:969][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.03.10-15.47.01:981][  0]LogInit: Object subsystem initialized
+[2015.03.10-15.47.01:983][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.03.10-15.47.01:983][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/GitHub/Vision/VisionUE/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.10-15.47.01:983][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.03.10-15.47.01:983][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/GitHub/Vision/VisionUE/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.10-15.47.01:983][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.03.10-15.47.01:983][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/GitHub/Vision/VisionUE/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.10-15.47.01:983][  0]LogInit: Selected Device Profile: [Windows]
+[2015.03.10-15.47.01:983][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.03.10-15.47.01:989][  0]LogInit: Computer: ZENTRUM-PC
+[2015.03.10-15.47.01:989][  0]LogInit: User: Zentrum
+[2015.03.10-15.47.01:989][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.03.10-15.47.01:989][  0]LogInit: High frequency timer resolution =3.579545 MHz
+[2015.03.10-15.47.01:989][  0]LogMemory: Memory total: Physical=7.5GB (8GB approx) Virtual=8192.0GB
+[2015.03.10-15.47.01:989][  0]LogMemory: Platform Memory Stats for Windows
+[2015.03.10-15.47.01:989][  0]LogMemory: Process Physical Memory: 47.37 MB used, 47.37 MB peak
+[2015.03.10-15.47.01:989][  0]LogMemory: Process Virtual Memory: 25.68 MB used, 25.68 MB peak
+[2015.03.10-15.47.01:989][  0]LogMemory: Physical Memory: 2571.68 MB used, 7679.18 MB total
+[2015.03.10-15.47.01:989][  0]LogMemory: Virtual Memory: 279.40 MB used, 8388608.00 MB total
+[2015.03.10-15.47.02:019][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 630 (Feature Level 11_0)
+[2015.03.10-15.47.02:019][  0]LogD3D11RHI: Adapter has 4040MB of dedicated video memory, 0MB of dedicated system memory, and 3583MB of shared system memory, 2 output[s]
+[2015.03.10-15.47.02:033][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce 8200 (Microsoft Corporation - WDDM v1.1) (Feature Level 10_0)
+[2015.03.10-15.47.02:033][  0]LogD3D11RHI: Adapter has 487MB of dedicated video memory, 64MB of dedicated system memory, and 3519MB of shared system memory, 1 output[s]
+[2015.03.10-15.47.02:033][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.03.10-15.47.02:040][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.03.10-15.47.02:047][  0]LogD3D11RHI: Async texture creation enabled
+[2015.03.10-15.47.02:106][  0]LogTextLocalizationManager: The requested culture ('de_DE') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.03.10-15.47.02:318][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.03.10-15.47.04:936][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.10-15.47.05:465][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.10-15.47.05:530][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.03.10-15.47.05:620][  0]LogDerivedDataCache: Loaded boot cache 0.09s 39MB C:/Users/Zentrum/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.10-15.47.05:620][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Zentrum/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.03.10-15.47.05:620][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../GitHub/Vision/VisionUE/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.03.10-15.47.05:620][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.03.10-15.47.05:741][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.03.10-15.47.05:752][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Zentrum/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.03.10-15.47.06:135][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.03.10-15.47.06:135][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.03.10-15.47.06:587][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.03.10-15.47.06:667][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.03.10-15.47.07:474][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.03.10-15.47.07:671][  0]SourceControl: Info Source control is disabled
+[2015.03.10-15.47.07:671][  0]SourceControl: Info Source control is disabled
+[2015.03.10-15.47.07:671][  0]SourceControl: Info Source control is disabled
+[2015.03.10-15.47.07:680][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.10-15.47.07:686][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.msysgit.0
+'
+[2015.03.10-15.47.07:875][  0]LogObj: 24231 objects as part of root set at end of initial load.
+[2015.03.10-15.47.07:875][  0]LogUObjectAllocator: 5136440 out of 0 bytes used by permanent object pool.
+[2015.03.10-15.47.07:973][  0]LogEngine: Initializing Engine...
+[2015.03.10-15.47.10:176][  0]LogInit: XAudio2 using 'Lautsprecher (2- High Definition Audio-Gerät)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.03.10-15.47.10:205][  0]LogInit: FAudioDevice initialized.
+[2015.03.10-15.47.10:242][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.03.10-15.47.10:281][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/Zentrum/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.10-15.47.10:292][  0]LogInit: Texture streaming: Enabled
+[2015.03.10-15.47.10:400][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.03.10-15.47.10:400][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.2-2467323+++depot+UE4-Releases+4.7
+[2015.03.10-15.47.10:400][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.2-2467323+++depot+UE4-Releases+4.7
+[2015.03.10-15.47.10:400][  0]LogAnalytics: SetUserId a6f1bd084faec6cebe4e75a2d83b8662|b2c1567841e5484c93ced7e05cd852ce|0f5b9dc7-2094-4ccf-821e-cb105ecd4728
+[2015.03.10-15.47.10:400][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.03.10-15.47.10:419][  0]LogInit: Transaction tracking system initialized
+[2015.03.10-15.47.10:594][  0]BlueprintLog: New page: Editor Load
+[2015.03.10-15.47.10:629][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2015.03.10-15.47.10:630][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.03.10-15.47.11:184][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.10-15.47.11:557][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.10-15.47.11:790][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2015.03.10-15.47.11:791][  0]LogLinker:Warning: Can't find file '/Game/TopDownBP/TopDownOverview'
+[2015.03.10-15.47.11:791][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/TopDownBP/TopDownOverview.TopDownOverview_C'
+[2015.03.10-15.47.11:830][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.03.10-15.47.11:830][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.03.10-15.47.11:834][  0]LogConsoleResponse:Display: 
+[2015.03.10-15.47.11:986][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.03.10-15.47.12:126][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.10-15.47.12:133][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.msysgit.0
+'
+[2015.03.10-15.47.12:133][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.10-15.47.12:134][  0]LightingResults: New page: Lighting Build
+[2015.03.10-15.47.12:147][  0]MapCheck: New page: Map Check
+[2015.03.10-15.47.12:147][  0]LightingResults: New page: Lighting Build
+[2015.03.10-15.47.12:156][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000168FE980
+[2015.03.10-15.47.12:845][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.10-15.47.12:845][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.03.10-15.47.12:846][  0]Cmd: MAP CHECKDEP
+[2015.03.10-15.47.12:846][  0]MapCheck: New page: Untitled_1 - Mar 10, 2015, 5:47:12 PM
+[2015.03.10-15.47.12:922][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 75.786ms to complete.
+[2015.03.10-15.47.12:922][  0]LogFileHelpers: Loading map 'Template_Default' took 0.789
+[2015.03.10-15.47.13:062][  0]LogSourceControl: RunCommandInternalRaw: 'git status'
+[2015.03.10-15.47.13:062][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   VisionUE/Content/DragableWindow.uasset
+	new file:   VisionUE/Content/FOnt.uasset
+	new file:   VisionUE/Content/GM.uasset
+	new file:   VisionUE/Content/PC.uasset
+	new file:   VisionUE/Content/RpgStatControll.uasset
+	new file:   VisionUE/Content/StatBlock.uasset
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   VisionUE/Content/Default.umap
+	modified:   VisionUE/Content/DragableWindow.uasset
+	modified:   VisionUE/Content/GM.uasset
+	modified:   VisionUE/Content/PC.uasset
+	modified:   VisionUE/Content/RpgStatControll.uasset
+	modified:   VisionUE/Content/StatBlock.uasset
+	modified:   VisionUE/Intermediate/CachedAssetRegistry.bin
+	modified:   VisionUE/Intermediate/ReimportCache/3688439234.bin
+	modified:   VisionUE/Saved/Config/Windows/Editor.ini
+	modified:   VisionUE/Saved/Config/Windows/EditorLayout.ini
+	modified:   VisionUE/Saved/Config/Windows/EditorUserSettings.ini
+	modified:   VisionUE/Saved/Config/Windows/Engine.ini
+	modified:   VisionUE/Saved/Config/Windows/SourceControlSettings.ini
+	modified:   VisionUE/Saved/Logs/VisionUE.log
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	VisionUE/Saved/AutoScreenshot.png
+	VisionUE/Saved/Autosaves/Game/
+	VisionUE/Saved/Backup/CharacterStatWindow_2015-03-10-15-55-41.uasset
+	VisionUE/Saved/Backup/CharacterStatWindow_2015-03-10-16-01-28.uasset
+	VisionUE/Saved/Backup/CharacterStatWindow_2015-03-10-16-10-47.uasset
+	VisionUE/Saved/Backup/CharacterStatWindow_2015-03-10-16-15-56.uasset
+	VisionUE/Saved/Backup/CharacterStatWindow_2015-03-10-16-22-07.uasset
+	VisionUE/Saved/Backup/Default_2015-03-10-15-45-40.umap
+	VisionUE/Saved/Backup/Default_2015-03-10-16-12-34.umap
+	VisionUE/Saved/Backup/Default_2015-03-10-16-35-02.umap
+	VisionUE/Saved/Backup/DragableWindow_2015-03-10-16-34-12.uasset
+	VisionUE/Saved/Backup/DragableWindow_2015-03-10-16-39-37.uasset
+	VisionUE/Saved/Backup/DragableWindow_2015-03-10-16-44-42.uasset
+	VisionUE/Saved/Backup/GM_2015-03-10-16-13-00.uasset
+	VisionUE/Saved/Backup/PC_2015-03-10-16-15-21.uasset
+	VisionUE/Saved/Backup/RpgStatControll_2015-03-10-15-49-05.uasset
+	VisionUE/Saved/Backup/RpgStatControll_2015-03-10-16-14-24.uasset
+	VisionUE/Saved/Backup/RpgStatControll_2015-03-10-16-22-20.uasset
+	VisionUE/Saved/Backup/RpgStatControll_2015-03-10-16-32-05.uasset
+	VisionUE/Saved/Backup/RpgStatControll_2015-03-10-16-46-27.uasset
+	VisionUE/Saved/Backup/StatBlock_2015-03-10-15-47-16.uasset
+	VisionUE/Saved/Diff/
+	VisionUE/Saved/Logs/Dump-1868627776.dmp
+	VisionUE/Saved/Logs/VisionUE-backup-2015.03.10-15.41.40.log
+	VisionUE/Saved/Logs/VisionUE-backup-2015.03.10-16.32.48.log
+	VisionUE/Saved/Logs/VisionUE-backup-2015.03.10-16.47.01.log
+
+'
+[2015.03.10-15.47.13:062][  0]LogSourceControl: RunCommandInternalRaw: 'git symbolic-ref --short HEAD'
+[2015.03.10-15.47.13:062][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='master
+'
+[2015.03.10-15.47.13:062][  0]LogCollectionManager: Loaded 0 collections in 0.001647 seconds
+[2015.03.10-15.47.13:073][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 1696 classes and 261 folders.
+[2015.03.10-15.47.13:091][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.03.10-15.47.13:106][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
+[2015.03.10-15.47.13:185][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.03.10-15.47.13:186][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.03.10-15.47.13:194][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.03.10-15.47.13:219][  0]LogLoad: Full Startup: 13.16 seconds (BP compile: 0.09 seconds)
+[2015.03.10-15.47.13:609][  0]SourceControl: Info master
+[2015.03.10-15.47.13:775][  0]LogRenderer:Warning: Reallocating scene render targets to support 808x384 (Frame:2).
+[2015.03.10-15.47.14:948][  4]LogAssetRegistry: Asset discovery search completed in 4.3302 seconds
+[2015.03.10-15.47.20:941][ 23]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/VisionUE/Content/Default.umap" "D:/GitHub/Vision/VisionUE/Content/DragableWindow.uasset" "D:/GitHub/Vision/VisionUE/Content/FOnt.uasset" "D:/GitHub/Vision/VisionUE/Content/GM.uasset" "D:/GitHub/Vision/VisionUE/Content/PC.uasset" "D:/GitHub/Vision/VisionUE/Content/RpgStatControll.uasset" "D:/GitHub/Vision/VisionUE/Content/StatBlock.uasset"'
+[2015.03.10-15.47.21:274][ 24]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M VisionUE/Content/Default.umap
+AM VisionUE/Content/DragableWindow.uasset
+A  VisionUE/Content/FOnt.uasset
+AM VisionUE/Content/GM.uasset
+AM VisionUE/Content/PC.uasset
+AM VisionUE/Content/RpgStatControll.uasset
+AM VisionUE/Content/StatBlock.uasset
+'
+[2015.03.10-15.47.43:631][ 90]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "/Temp/Untitled_1"'
+[2015.03.10-15.47.43:640][ 90]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.03.10-15.47.43:641][ 90]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Could not switch to '/Temp/': No such file or directory
+'
+[2015.03.10-15.47.43:652][ 90]SourceControl:Error: Error fatal: Could not switch to '/Temp/': No such file or directory
+[2015.03.10-15.47.45:411][ 91]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "/Temp/Untitled_1"'
+[2015.03.10-15.47.45:420][ 92]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutResults=''
+[2015.03.10-15.47.45:420][ 92]LogSourceControl:Error: RunCommandInternalRaw: ExecProcess ReturnCode=128 OutErrors='fatal: Could not switch to '/Temp/': No such file or directory
+'
+[2015.03.10-15.47.45:435][ 92]SourceControl:Error: Error fatal: Could not switch to '/Temp/': No such file or directory
+[2015.03.10-15.47.46:985][129]Cmd: MAP LOAD FILE="../../../../../../../GitHub/Vision/VisionUE/Content/Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.10-15.47.46:985][129]LightingResults: New page: Lighting Build
+[2015.03.10-15.47.47:011][129]LoadErrors: New page: Loading map: Default.umap
+[2015.03.10-15.47.47:012][129]MapCheck: New page: Map Check
+[2015.03.10-15.47.47:012][129]LightingResults: New page: Lighting Build
+[2015.03.10-15.47.47:022][129]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F43A480
+[2015.03.10-15.47.47:059][129]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.10-15.47.47:059][129]LogAIModule: Creating AISystem for world Default
+[2015.03.10-15.47.47:089][129]Cmd: MAP CHECKDEP
+[2015.03.10-15.47.47:089][129]MapCheck: New page: Default - Mar 10, 2015, 5:47:47 PM
+[2015.03.10-15.47.47:167][129]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 78.183ms to complete.
+[2015.03.10-15.47.47:168][129]LogFileHelpers: Loading map 'Default' took 0.186
+[2015.03.10-15.47.49:281][170]LogPlayerController:Warning: Calling IsLocalController() while Player is NULL is undefined!
+[2015.03.10-15.47.49:281][170]LogPlayerController:Warning: Calling IsLocalController() while Player is NULL is undefined!
+[2015.03.10-15.47.49:281][170]LogWindows:Error: Windows GetLastError: Der Vorgang wurde erfolgreich beendet. (0)
+[2015.03.10-15.47.49:298][170]LogCrashTracker: 
+
+
+[2015.03.10-15.47.53:515][170]LogCrashTracker: 
+
+
+[2015.03.10-15.47.53:516][170]LogWindows: === Critical error: ===
+Fatal error: [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.7\Engine\Source\Runtime\CoreUObject\Private\Templates\Casts.cpp] [Line: 11] 
+Cast of nullptr to LocalPlayer failed
+
+
+KERNELBASE.dll!UnknownFunction (0x000007fefce5940d) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!FOutputDeviceWindowsError::Serialize() (0x000007feeadb8014) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsplatformoutputdevices.cpp:95]
+UE4Editor-Core.dll!FMsg::Logf__VA() (0x000007feeac376ef) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\misc\outputdevice.cpp:526]
+UE4Editor-CoreUObject.dll!CastLogError() (0x000007feeb427a43) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\coreuobject\private\templates\casts.cpp:12]
+UE4Editor-Engine.dll!CastChecked<ULocalPlayer,UPlayer>() (0x000007fee8727c7b) + 45 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\coreuobject\public\templates\casts.h:162]
+UE4Editor-Engine.dll!FLocalPlayerContext::SetPlayerController() (0x000007fee87a7c72) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\localplayer.cpp:135]
+UE4Editor-Engine.dll!FLocalPlayerContext::FLocalPlayerContext() (0x000007fee8739e4b) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\localplayer.cpp:63]
+UE4Editor-UMG.dll!CreateWidget<UUserWidget>() (0x000007fee7637146) + 13 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\umg\public\blueprint\userwidget.h:761]
+UE4Editor-UMG.dll!UWidgetBlueprintLibrary::Create() (0x000007fee76ab34e) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\umg\private\widgetblueprintlibrary.cpp:34]
+UE4Editor-UMG.dll!UWidgetBlueprintLibrary::execCreate() (0x000007fee77c00ba) + 234 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\umg\public\blueprint\widgetblueprintlibrary.h:16]
+UE4Editor-CoreUObject.dll!UFunction::Invoke() (0x000007feeb451f64) + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\coreuobject\private\uobject\class.cpp:3684]
+UE4Editor-CoreUObject.dll!UObject::CallFunction() (0x000007feeb51f538) + 20 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:395]
+UE4Editor-CoreUObject.dll!UObject::ProcessContextOpcode() (0x000007feeb53dfad) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:1451]
+UE4Editor-CoreUObject.dll!UObject::execLetObj() (0x000007feeb55c1ee) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:1292]
+UE4Editor-CoreUObject.dll!UObject::ProcessInternal() (0x000007feeb53f72c) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:602]
+UE4Editor-CoreUObject.dll!UObject::CallFunction() (0x000007feeb51fb73) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:516]
+UE4Editor-CoreUObject.dll!UObject::ProcessInternal() (0x000007feeb53f72c) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:602]
+UE4Editor-CoreUObject.dll!UFunction::Invoke() (0x000007feeb451f64) + 15 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\coreuobject\private\uobject\class.cpp:3684]
+UE4Editor-CoreUObject.dll!UObject::ProcessEvent() (0x000007feeb53eddc) + 29 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:924]
+UE4Editor-Engine.dll!UActorComponent::InitializeComponent() (0x000007fee8389b3c) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\actorcomponent.cpp:560]
+UE4Editor-Engine.dll!AActor::InitializeComponents() (0x000007fee8389c55) + 9 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\actor.cpp:3359]
+UE4Editor-Engine.dll!AActor::PostActorConstruction() (0x000007fee8392bfe) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\actor.cpp:2346]
+UE4Editor-Engine.dll!AActor::PostSpawnInitialize() (0x000007fee8394bc8) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\actor.cpp:2313]
+UE4Editor-Engine.dll!UWorld::SpawnActor() (0x000007fee871c842) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\levelactor.cpp:336]
+UE4Editor-Kismet.dll!FBlueprintEditor::UpdatePreviewActor() (0x000007fee378ffc1) + 81 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\kismet\private\blueprinteditor.cpp:7235]
+UE4Editor-Kismet.dll!FBlueprintEditor::Tick() (0x000007fee378bb43) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\kismet\private\blueprinteditor.cpp:6242]
+UE4Editor-UnrealEd.dll!FTickableEditorObject::TickObjects() (0x000007fee5eaf504) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\public\tickableeditorobject.h:15]
+UE4Editor-UnrealEd.dll!UEditorEngine::Tick() (0x000007fee5ead573) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\editor.cpp:1110]
+UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() (0x000007fee6368186) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\unrealedengine.cpp:347]
+UE4Editor.exe!FEngineLoop::Tick() (0x000000013f110263) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\launchengineloop.cpp:2257]
+UE4Editor.exe!GuardedMain() (0x000000013f10267c) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\launch.cpp:142]
+UE4Editor.exe!GuardedMainWrapper() (0x000000013f1026ea) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x000000013f112219) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x000000013f113159) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+kernel32.dll!UnknownFunction (0x0000000076e859ed) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x0000000076fbc541) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x0000000076fbc541) + 0 bytes [UnknownFile:0]
+
+
+[2015.03.10-15.47.53:632][170]LogExit: Executing StaticShutdownAfterError
+[2015.03.10-15.47.53:634][170]LogOutputDevice:Warning: 
+
+Script Stack:
+RpgStatControll_C.ExecuteUbergraph_RpgStatControll
+RpgStatControll_C.ReceiveInitializeComponent
+
+[2015.03.10-15.47.53:637][170]LogWindows: FPlatformMisc::RequestExit(1)
+[2015.03.10-15.47.53:637][170]Log file closed, 03/10/15 16:47:53
