@@ -1,0 +1,1080 @@
+﻿Log file open, 03/14/15 22:51:54
+LogInit:Display: Running engine for game: Vision
+LogInit: Version: 4.7.2-2467323+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Mar  2 2015 23:16:34
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: D:/Programme/Epic/Unreal Engine/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.03.14-21.51.54:386][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.03.14-21.51.54:441][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.03.14-21.51.54:454][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.03.14-21.51.54:465][  0]LogInit: Object subsystem initialized
+[2015.03.14-21.51.54:467][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.03.14-21.51.54:467][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/GitHub/Vision/Vision/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.14-21.51.54:467][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.03.14-21.51.54:467][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/GitHub/Vision/Vision/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.14-21.51.54:467][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.03.14-21.51.54:467][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/GitHub/Vision/Vision/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.14-21.51.54:468][  0]LogInit: Selected Device Profile: [Windows]
+[2015.03.14-21.51.54:468][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.03.14-21.51.54:474][  0]LogInit: Computer: ZENTRUM-PC
+[2015.03.14-21.51.54:474][  0]LogInit: User: Zentrum
+[2015.03.14-21.51.54:474][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.03.14-21.51.54:474][  0]LogInit: High frequency timer resolution =3.579545 MHz
+[2015.03.14-21.51.54:474][  0]LogMemory: Memory total: Physical=7.5GB (8GB approx) Virtual=8192.0GB
+[2015.03.14-21.51.54:474][  0]LogMemory: Platform Memory Stats for Windows
+[2015.03.14-21.51.54:474][  0]LogMemory: Process Physical Memory: 47.36 MB used, 47.36 MB peak
+[2015.03.14-21.51.54:474][  0]LogMemory: Process Virtual Memory: 26.50 MB used, 26.50 MB peak
+[2015.03.14-21.51.54:474][  0]LogMemory: Physical Memory: 2805.78 MB used, 7679.18 MB total
+[2015.03.14-21.51.54:474][  0]LogMemory: Virtual Memory: 280.36 MB used, 8388608.00 MB total
+[2015.03.14-21.51.54:502][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 630 (Feature Level 11_0)
+[2015.03.14-21.51.54:502][  0]LogD3D11RHI: Adapter has 4040MB of dedicated video memory, 0MB of dedicated system memory, and 3583MB of shared system memory, 2 output[s]
+[2015.03.14-21.51.54:516][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce 8200 (Microsoft Corporation - WDDM v1.1) (Feature Level 10_0)
+[2015.03.14-21.51.54:516][  0]LogD3D11RHI: Adapter has 487MB of dedicated video memory, 64MB of dedicated system memory, and 3519MB of shared system memory, 1 output[s]
+[2015.03.14-21.51.54:516][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.03.14-21.51.54:521][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.03.14-21.51.54:529][  0]LogD3D11RHI: Async texture creation enabled
+[2015.03.14-21.51.54:584][  0]LogTextLocalizationManager: The requested culture ('de_DE') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.03.14-21.51.54:775][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.03.14-21.51.57:321][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.14-21.51.57:842][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.14-21.51.57:905][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.03.14-21.51.57:973][  0]LogDerivedDataCache: Loaded boot cache 0.07s 39MB C:/Users/Zentrum/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.14-21.51.57:973][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Zentrum/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.03.14-21.51.57:973][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../GitHub/Vision/Vision/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.03.14-21.51.57:973][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.03.14-21.51.58:096][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.03.14-21.51.58:108][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Zentrum/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.03.14-21.51.58:478][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.03.14-21.51.58:478][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.03.14-21.51.58:920][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.03.14-21.51.58:996][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.03.14-21.51.59:783][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.03.14-21.51.59:976][  0]SourceControl: Info Source control is disabled
+[2015.03.14-21.51.59:976][  0]SourceControl: Info Source control is disabled
+[2015.03.14-21.51.59:976][  0]SourceControl: Info Source control is disabled
+[2015.03.14-21.51.59:985][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.14-21.51.59:994][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.msysgit.0
+'
+[2015.03.14-21.52.00:174][  0]LogObj: 24231 objects as part of root set at end of initial load.
+[2015.03.14-21.52.00:174][  0]LogUObjectAllocator: 5136440 out of 0 bytes used by permanent object pool.
+[2015.03.14-21.52.00:273][  0]LogEngine: Initializing Engine...
+[2015.03.14-21.52.02:469][  0]LogInit: XAudio2 using 'Lautsprecher (2- High Definition Audio-Gerät)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.03.14-21.52.02:499][  0]LogInit: FAudioDevice initialized.
+[2015.03.14-21.52.02:536][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.03.14-21.52.02:569][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Zentrum/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.14-21.52.02:581][  0]LogInit: Texture streaming: Enabled
+[2015.03.14-21.52.02:687][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.03.14-21.52.02:687][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.2-2467323+++depot+UE4-Releases+4.7
+[2015.03.14-21.52.02:687][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.2-2467323+++depot+UE4-Releases+4.7
+[2015.03.14-21.52.02:687][  0]LogAnalytics: SetUserId a6f1bd084faec6cebe4e75a2d83b8662|b2c1567841e5484c93ced7e05cd852ce|0f5b9dc7-2094-4ccf-821e-cb105ecd4728
+[2015.03.14-21.52.02:688][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.03.14-21.52.02:708][  0]LogInit: Transaction tracking system initialized
+[2015.03.14-21.52.02:876][  0]BlueprintLog: New page: Editor Load
+[2015.03.14-21.52.02:910][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
+[2015.03.14-21.52.02:910][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.03.14-21.52.03:458][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.14-21.52.03:829][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.14-21.52.04:098][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.03.14-21.52.04:098][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.03.14-21.52.04:103][  0]LogConsoleResponse:Display: 
+[2015.03.14-21.52.04:254][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.03.14-21.52.04:393][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.14-21.52.04:400][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='git version 1.9.5.msysgit.0
+'
+[2015.03.14-21.52.04:400][  0]Cmd: MAP LOAD FILE="../../../../../../../GitHub/Vision/Vision/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.14-21.52.04:401][  0]LightingResults: New page: Lighting Build
+[2015.03.14-21.52.04:414][  0]MapCheck: New page: Map Check
+[2015.03.14-21.52.04:414][  0]LightingResults: New page: Lighting Build
+[2015.03.14-21.52.04:422][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000004106520
+[2015.03.14-21.52.05:781][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.14-21.52.06:820][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.03.14-21.52.06:821][  0]Cmd: MAP CHECKDEP
+[2015.03.14-21.52.06:822][  0]MapCheck: New page: TopDownExampleMap - Mar 14, 2015, 11:52:06 PM
+[2015.03.14-21.52.06:903][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 80.973ms to complete.
+[2015.03.14-21.52.06:903][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 2.502
+[2015.03.14-21.52.07:053][  0]LogSourceControl: RunCommandInternalRaw: 'git status'
+[2015.03.14-21.52.07:053][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='On branch RPG-System
+Your branch is up-to-date with 'origin/RPG-System'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   Vision/Intermediate/CachedAssetRegistry.bin
+	modified:   Vision/Saved/Autosaves/PackageRestoreData.json
+	modified:   Vision/Saved/Config/Windows/Editor.ini
+	modified:   Vision/Saved/Config/Windows/EditorLayout.ini
+	modified:   Vision/Saved/Config/Windows/EditorUserSettings.ini
+	modified:   Vision/Saved/Config/Windows/Engine.ini
+	modified:   Vision/Saved/Logs/Vision.log
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	Vision/Saved/Logs/Vision-backup-2015.03.14-22.51.54.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+'
+[2015.03.14-21.52.07:053][  0]LogSourceControl: RunCommandInternalRaw: 'git symbolic-ref --short HEAD'
+[2015.03.14-21.52.07:053][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='RPG-System
+'
+[2015.03.14-21.52.07:053][  0]LogCollectionManager: Loaded 0 collections in 0.001611 seconds
+[2015.03.14-21.52.07:064][  0]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 1696 classes and 261 folders.
+[2015.03.14-21.52.07:097][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
+[2015.03.14-21.52.07:130][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.03.14-21.52.07:131][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.03.14-21.52.07:139][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.03.14-21.52.07:165][  0]LogLoad: Full Startup: 14.59 seconds (BP compile: 0.37 seconds)
+[2015.03.14-21.52.07:519][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/RPG-System/Attribute'
+[2015.03.14-21.52.07:566][  0]SourceControl: Info RPG-System
+[2015.03.14-21.52.07:732][  0]LogRenderer:Warning: Reallocating scene render targets to support 808x384 (Frame:2).
+[2015.03.14-21.52.08:913][  4]LogAssetRegistry: Asset discovery search completed in 6.0137 seconds
+[2015.03.14-21.52.10:573][ 10]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Attribute/AttributBar.uasset" "D:/GitHub/Vision/Vision/Content/RPG-System/Attribute/Attribute.uasset" "D:/GitHub/Vision/Vision/Content/RPG-System/Attribute/AttributeManager.uasset"'
+[2015.03.14-21.52.10:904][ 11]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.14-21.52.26:333][ 59]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/RPG-System'
+[2015.03.14-21.52.28:394][198]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/RPG-System'
+[2015.03.14-21.52.39:554][590]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/RPG-System/Stats'
+[2015.03.14-21.52.42:944][820]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/RPG-System/Stats'
+[2015.03.14-21.52.44:558][862]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/Stat.uasset"'
+[2015.03.14-21.52.44:572][862]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.14-21.52.45:437][884]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/Stat.uasset"'
+[2015.03.14-21.52.45:449][884]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.14-21.52.45:530][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/Stat" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/Stat.uasset" SILENT=true
+[2015.03.14-21.52.45:537][884]LogSavePackage: Save=4.200813ms
+[2015.03.14-21.52.45:537][884]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/Stat66C73B894F51941E63B5008AACDE2CF5.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/Stat.uasset'
+[2015.03.14-21.52.45:570][884]LogSourceControl: RunCommandInternalRaw: 'git add "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/Stat.uasset"'
+[2015.03.14-21.52.45:585][884]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.14-21.52.45:585][884]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/Stat.uasset"'
+[2015.03.14-21.52.45:604][884]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Vision/Content/RPG-System/Stats/Stat.uasset
+'
+[2015.03.14-21.52.45:621][885]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/Stat.uasset"'
+[2015.03.14-21.52.45:636][887]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Vision/Content/RPG-System/Stats/Stat.uasset
+'
+[2015.03.14-21.52.45:908][895]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/Stat.uasset"'
+[2015.03.14-21.52.45:933][895]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Vision/Content/RPG-System/Stats/Stat.uasset
+'
+[2015.03.14-21.52.47:694][971]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/RPG-System/Stats'
+[2015.03.14-21.52.48:765][  1]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/Stat.uasset"'
+[2015.03.14-21.52.48:777][  1]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Vision/Content/RPG-System/Stats/Stat.uasset
+'
+[2015.03.14-21.52.52:169][111]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-21.52.52:183][111]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.14-21.52.53:256][141]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-21.52.53:264][141]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.14-21.52.53:424][143]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-21.52.53:436][143]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.14-21.52.53:514][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/StatManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset" SILENT=true
+[2015.03.14-21.52.53:534][143]LogSavePackage: Save=8.402465ms
+[2015.03.14-21.52.53:534][143]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManagerFAC1ADB34F6BCDD10AE155A026D3C3A9.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset'
+[2015.03.14-21.52.53:569][143]LogSourceControl: RunCommandInternalRaw: 'git add "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-21.52.53:584][143]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.14-21.52.53:584][143]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-21.52.53:606][143]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-21.52.53:617][144]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-21.52.53:632][146]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-21.53.14:501][795]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-21.53.14:519][795]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-21.53.14:570][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/StatManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset" SILENT=true
+[2015.03.14-21.53.14:584][795]LogSavePackage: Save=8.414477ms
+[2015.03.14-21.53.14:585][795]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManager883220D844E3C3D1372554BC037B1BFE.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset'
+[2015.03.14-21.53.14:596][796]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-21.53.14:606][797]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-21.53.14:986][835]BlueprintLog: New page: Compile StatManager
+[2015.03.14-21.53.15:063][835]BlueprintEditorCompileResults: Info [0082.49] Compile of StatManager successful! [in 76 ms]
+[2015.03.14-21.53.34:190][  3]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-21.53.34:208][  3]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-21.53.34:258][  3]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/StatManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset" SILENT=true
+[2015.03.14-21.53.34:271][  3]LogSavePackage: Save=9.386389ms
+[2015.03.14-21.53.34:271][  3]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManager1ECE3DD143411B63A703679176CE075D.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset'
+[2015.03.14-21.53.34:283][  4]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-21.53.34:298][  6]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-21.53.34:574][ 37]BlueprintLog: New page: Compile StatManager
+[2015.03.14-21.53.34:660][ 37]BlueprintEditorCompileResults: Info [0102.09] Compile of StatManager successful! [in 85 ms]
+[2015.03.14-21.53.55:880][402]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/Stat.uasset"'
+[2015.03.14-21.53.55:893][402]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='A  Vision/Content/RPG-System/Stats/Stat.uasset
+'
+[2015.03.14-21.53.55:963][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/Stat" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/Stat.uasset" SILENT=true
+[2015.03.14-21.53.55:975][402]LogSavePackage: Save=3.775899ms
+[2015.03.14-21.53.55:975][402]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/Stat0C24B92141E06E42F06557AF9E3E4E31.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/Stat.uasset'
+[2015.03.14-21.53.55:983][403]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/Stat.uasset"'
+[2015.03.14-21.53.55:995][405]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/Stat.uasset
+'
+[2015.03.14-21.54.24:016][683]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/Stat.uasset"'
+[2015.03.14-21.54.24:032][683]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/Stat.uasset
+'
+[2015.03.14-21.54.24:121][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/Stat" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/Stat.uasset" SILENT=true
+[2015.03.14-21.54.24:129][683]LogSavePackage: Save=4.667912ms
+[2015.03.14-21.54.24:129][683]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatA2866EB746451DA2D203FEBD999EA603.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/Stat.uasset'
+[2015.03.14-21.54.24:139][684]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/Stat.uasset"'
+[2015.03.14-21.54.24:151][686]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/Stat.uasset
+'
+[2015.03.14-21.54.45:784][225]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/Stat.uasset"'
+[2015.03.14-21.54.45:797][225]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/Stat.uasset
+'
+[2015.03.14-21.54.45:876][225]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/Stat" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/Stat.uasset" SILENT=true
+[2015.03.14-21.54.45:885][225]LogSavePackage: Save=4.655340ms
+[2015.03.14-21.54.45:885][225]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatABDC75BE4EE7036813B58E8BAF47258E.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/Stat.uasset'
+[2015.03.14-21.54.45:894][226]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/Stat.uasset"'
+[2015.03.14-21.54.45:908][228]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/Stat.uasset
+'
+[2015.03.14-21.54.58:691][753]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/Stat.uasset"'
+[2015.03.14-21.54.58:703][753]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/Stat.uasset
+'
+[2015.03.14-21.54.58:796][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/Stat" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/Stat.uasset" SILENT=true
+[2015.03.14-21.54.58:806][753]LogSavePackage: Save=4.929956ms
+[2015.03.14-21.54.58:806][753]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatCB3D19C44CA60BA87CA04FA57362C297.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/Stat.uasset'
+[2015.03.14-21.54.58:815][754]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/Stat.uasset"'
+[2015.03.14-21.54.58:828][756]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/Stat.uasset
+'
+[2015.03.14-21.54.59:886][881]BlueprintLog: New page: Compile StatManager
+[2015.03.14-21.54.59:974][881]BlueprintEditorCompileResults: Info [0187.41] Compile of StatManager successful! [in 88 ms]
+[2015.03.14-21.55.00:374][922]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-21.55.00:385][922]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-21.55.00:463][922]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/StatManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset" SILENT=true
+[2015.03.14-21.55.00:477][922]LogSavePackage: Save=9.481932ms
+[2015.03.14-21.55.00:477][922]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManager6AFBFEE64544ED02008A8B9A274D0742.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset'
+[2015.03.14-21.55.00:489][923]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-21.55.00:503][925]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-21.55.03:942][150]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDownBP'
+[2015.03.14-21.55.04:998][180]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/TopDownBP/TopDownOverview.uasset"'
+[2015.03.14-21.55.05:004][180]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.14-21.55.05:883][206]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/TopDownBP/Blueprints'
+[2015.03.14-21.55.06:938][230]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownCharacter.uasset" "D:/GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset" "D:/GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownGameMode.uasset"'
+[2015.03.14-21.55.06:946][230]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.14-21.55.51:197][125]BlueprintLog: New page: Compile StatManager
+[2015.03.14-21.55.51:251][125]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.14-21.55.51:287][125]BlueprintEditorCompileResults: Info [0238.72] Compile of StatManager successful! [in 89 ms]
+[2015.03.14-21.55.51:796][175]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-21.55.51:818][175]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-21.55.51:877][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/StatManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset" SILENT=true
+[2015.03.14-21.55.51:892][175]LogSavePackage: Save=11.500624ms
+[2015.03.14-21.55.51:892][175]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManager3FF90C6946B32769A7DE0A8B9A6BAFB1.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset'
+[2015.03.14-21.55.51:904][176]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-21.55.51:928][179]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-21.56.21:056][502]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-21.56.21:068][502]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-21.56.21:151][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/StatManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset" SILENT=true
+[2015.03.14-21.56.21:171][502]LogSavePackage: Save=15.842237ms
+[2015.03.14-21.56.21:171][502]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManager11122CC84482D4469A0B2295B562CF07.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset'
+[2015.03.14-21.56.21:184][503]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-21.56.21:199][505]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-21.56.21:543][546]BlueprintLog: New page: Compile StatManager
+[2015.03.14-21.56.21:634][546]BlueprintEditorCompileResults: Info [0269.07] Compile of StatManager successful! [in 91 ms]
+[2015.03.14-21.56.36:062][236]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-21.56.36:077][236]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-21.56.36:155][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/StatManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset" SILENT=true
+[2015.03.14-21.56.36:170][236]LogSavePackage: Save=10.819811ms
+[2015.03.14-21.56.36:170][236]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManagerA1DC2EF149F6FBEB40D88F8661F4EBCB.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset'
+[2015.03.14-21.56.36:181][237]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-21.56.36:195][239]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-21.56.36:523][278]BlueprintLog: New page: Compile StatManager
+[2015.03.14-21.56.36:605][278]BlueprintEditorCompileResults: Info [0284.04] Compile of StatManager successful! [in 81 ms]
+[2015.03.14-21.57.16:963][633]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset"'
+[2015.03.14-21.57.16:975][633]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.14-21.57.17:068][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownController" FILE="../../../../../../../GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset" SILENT=true
+[2015.03.14-21.57.17:122][633]LogSavePackage: Save=44.431625ms
+[2015.03.14-21.57.17:122][633]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/TopDownController74BE17144B0F139B22929092347795E9.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset'
+[2015.03.14-21.57.17:138][634]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset"'
+[2015.03.14-21.57.17:147][635]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Vision/Content/TopDownBP/Blueprints/TopDownController.uasset
+'
+[2015.03.14-21.57.17:398][662]BlueprintLog: New page: Compile TopDownController
+[2015.03.14-21.57.17:511][662]BlueprintEditorCompileResults: Info [0324.95] Compile of TopDownController successful! [in 112 ms]
+[2015.03.14-21.57.28:962][953]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/Stat.uasset"'
+[2015.03.14-21.57.28:974][953]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/Stat.uasset
+'
+[2015.03.14-21.57.29:052][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/Stat" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/Stat.uasset" SILENT=true
+[2015.03.14-21.57.29:061][953]LogSavePackage: Save=4.829664ms
+[2015.03.14-21.57.29:061][953]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/Stat6885EDEC4F2E9A869BB6BDADE55D4CF8.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/Stat.uasset'
+[2015.03.14-21.57.29:070][954]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/Stat.uasset"'
+[2015.03.14-21.57.29:083][956]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/Stat.uasset
+'
+[2015.03.14-21.57.31:319][215]BlueprintLog: New page: Compile StatManager
+[2015.03.14-21.57.31:415][215]BlueprintEditorCompileResults: Info [0338.85] Compile of StatManager successful! [in 94 ms]
+[2015.03.14-21.57.31:736][247]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-21.57.31:748][247]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-21.57.31:836][247]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/StatManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset" SILENT=true
+[2015.03.14-21.57.31:850][247]LogSavePackage: Save=9.476903ms
+[2015.03.14-21.57.31:850][247]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManagerE1AA052448E5AAE5564957AA0A4124AB.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset'
+[2015.03.14-21.57.31:861][248]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-21.57.31:875][250]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-21.57.33:347][421]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.14-21.57.33:347][421]PIE: New page: PIE session: TopDownExampleMap (Mar 14, 2015, 11:57:33 PM)
+[2015.03.14-21.57.33:388][421]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040510s)
+[2015.03.14-21.57.33:389][421]LogPlayLevel: PIE: World Init took: (0.001269s)
+[2015.03.14-21.57.33:390][421]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.042352s)
+[2015.03.14-21.57.33:445][421]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.03.14-21.57.33:448][421]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.03.14-21.57.33:457][421]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.14-21.57.33:457][421]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2015.03.14-22.57.33
+[2015.03.14-21.57.33:458][421]LogWorld: Bringing up level for play took: 0.008436
+[2015.03.14-21.57.33:462][421]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.767
+[2015.03.14-21.57.33:474][421]LogRenderer:Warning: Reallocating scene render targets to support 1296x760 (Frame:1248).
+[2015.03.14-21.57.35:979][453]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017DB65C0
+[2015.03.14-21.57.58:767][830]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset"'
+[2015.03.14-21.57.58:779][830]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Vision/Content/TopDownBP/Blueprints/TopDownController.uasset
+'
+[2015.03.14-21.57.58:876][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownController" FILE="../../../../../../../GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset" SILENT=true
+[2015.03.14-21.57.58:925][830]LogSavePackage: Save=44.750381ms
+[2015.03.14-21.57.58:925][830]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/TopDownController784A992D4D206D83622B65BD16699D41.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset'
+[2015.03.14-21.57.58:940][831]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset"'
+[2015.03.14-21.57.58:950][832]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Vision/Content/TopDownBP/Blueprints/TopDownController.uasset
+'
+[2015.03.14-21.57.59:226][862]BlueprintLog: New page: Compile TopDownController
+[2015.03.14-21.57.59:335][862]BlueprintEditorCompileResults: Info [0366.77] Compile of TopDownController successful! [in 109 ms]
+[2015.03.14-21.58.21:136][261]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset"'
+[2015.03.14-21.58.21:148][261]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Vision/Content/TopDownBP/Blueprints/TopDownController.uasset
+'
+[2015.03.14-21.58.21:232][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownController" FILE="../../../../../../../GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset" SILENT=true
+[2015.03.14-21.58.21:282][261]LogSavePackage: Save=45.699104ms
+[2015.03.14-21.58.21:282][261]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/TopDownController89F325294D40085487E1A0BA2E0C3602.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset'
+[2015.03.14-21.58.21:294][262]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset"'
+[2015.03.14-21.58.21:302][263]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Vision/Content/TopDownBP/Blueprints/TopDownController.uasset
+'
+[2015.03.14-21.59.05:025][281]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-21.59.05:042][281]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-21.59.05:126][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/StatManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset" SILENT=true
+[2015.03.14-21.59.05:145][281]LogSavePackage: Save=11.602592ms
+[2015.03.14-21.59.05:146][281]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManager0AE8FBE24E9641A119877CAB40E53CC0.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset'
+[2015.03.14-21.59.05:159][282]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-21.59.05:173][284]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-21.59.05:519][325]BlueprintLog: New page: Compile StatManager
+[2015.03.14-21.59.05:610][325]BlueprintEditorCompileResults: Info [0433.05] Compile of StatManager successful! [in 90 ms]
+[2015.03.14-22.00.00:636][478]BlueprintLog: New page: Compile StatManager
+[2015.03.14-22.00.00:734][478]BlueprintEditorCompileResults: Info [0488.17] Compile of StatManager successful! [in 97 ms]
+[2015.03.14-22.00.01:280][533]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.00.01:293][533]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.00.01:375][533]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/StatManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset" SILENT=true
+[2015.03.14-22.00.01:407][533]LogSavePackage: Save=27.787889ms
+[2015.03.14-22.00.01:407][533]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManagerAB7A8FC54714AAF70A3B48A0A277C263.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset'
+[2015.03.14-22.00.01:419][534]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.00.01:434][536]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.00.41:451][955]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.00.41:464][955]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.00.41:551][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/StatManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset" SILENT=true
+[2015.03.14-22.00.41:583][955]LogSavePackage: Save=28.073120ms
+[2015.03.14-22.00.41:584][955]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManager358A41B94BF3E69296AEBBA227FE24FE.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset'
+[2015.03.14-22.00.41:596][956]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.00.41:605][957]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.00.41:833][984]BlueprintLog: New page: Compile StatManager
+[2015.03.14-22.00.41:932][984]BlueprintEditorCompileResults: Info [0529.37] Compile of StatManager successful! [in 98 ms]
+[2015.03.14-22.00.45:562][285]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/RPG-System'
+[2015.03.14-22.00.46:458][309]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/RPG-System/Attribute'
+[2015.03.14-22.00.47:480][335]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Attribute/AttributBar.uasset" "D:/GitHub/Vision/Vision/Content/RPG-System/Attribute/Attribute.uasset" "D:/GitHub/Vision/Vision/Content/RPG-System/Attribute/AttributeManager.uasset"'
+[2015.03.14-22.00.47:486][335]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.14-22.00.52:615][822]BlueprintLog: New page: Compile AttributeManager
+[2015.03.14-22.00.52:723][822]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.14-22.00.52:769][822]BlueprintEditorCompileResults: Info [0540.21] Compile of AttributeManager successful! [in 154 ms]
+[2015.03.14-22.00.53:108][852]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Attribute/AttributeManager.uasset"'
+[2015.03.14-22.00.53:122][852]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=''
+[2015.03.14-22.00.53:221][852]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Attribute/AttributeManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Attribute/AttributeManager.uasset" SILENT=true
+[2015.03.14-22.00.53:339][852]LogSavePackage: Save=111.386780ms
+[2015.03.14-22.00.53:340][852]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/AttributeManager49BF72B24816B1C7AFDD368A7F9BAC47.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Attribute/AttributeManager.uasset'
+[2015.03.14-22.00.53:355][853]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Attribute/AttributeManager.uasset"'
+[2015.03.14-22.00.53:363][854]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Vision/Content/RPG-System/Attribute/AttributeManager.uasset
+'
+[2015.03.14-22.02.12:224][468]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.030
+[2015.03.14-22.02.12:273][468]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RPG-System/Stats/StatManager] ([1] browsable assets)...
+[2015.03.14-22.02.12:303][468]OBJ SavePackage: Finished generating thumbnails for package [/Game/RPG-System/Stats/StatManager]
+[2015.03.14-22.02.12:437][468]LogSavePackage: Save=126.572235ms
+[2015.03.14-22.02.12:438][468]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManager_Auto19CA8C43E411343CA875304A4AA3264AF.tmp' to '../../../../../../../GitHub/Vision/Vision/Saved/Autosaves/Game/RPG-System/Stats/StatManager_Auto1.uasset'
+[2015.03.14-22.02.12:445][468]LogFileHelpers: Auto-saving content packages took 0.221
+[2015.03.14-22.02.36:031][ 37]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.02.36:054][ 37]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.02.36:114][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/StatManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset" SILENT=true
+[2015.03.14-22.02.36:161][ 37]LogSavePackage: Save=41.881020ms
+[2015.03.14-22.02.36:161][ 37]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManager2BD2B24B4313C93477851194B1F8D4D7.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset'
+[2015.03.14-22.02.36:175][ 38]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.02.36:184][ 39]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.02.36:486][ 72]BlueprintLog: New page: Compile StatManager
+[2015.03.14-22.02.36:585][ 72]BlueprintEditorCompileResults: Info [0644.03] Compile of StatManager successful! [in 99 ms]
+[2015.03.14-22.02.37:642][185]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.14-22.02.37:648][185]LogPlayLevel: [PIE] Compiling TopDownController before PIE...
+[2015.03.14-22.02.37:752][185]LogPlayLevel: PIE:  Blueprint regeneration took 109 ms (1 blueprints)
+[2015.03.14-22.02.37:752][185]PIE: New page: PIE session: TopDownExampleMap (Mar 15, 2015, 12:02:37 AM)
+[2015.03.14-22.02.37:790][185]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036332s)
+[2015.03.14-22.02.37:791][185]LogPlayLevel: PIE: World Init took: (0.001089s)
+[2015.03.14-22.02.37:791][185]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.037656s)
+[2015.03.14-22.02.37:835][185]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.03.14-22.02.37:839][185]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.03.14-22.02.37:846][185]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.14-22.02.37:846][185]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2015.03.14-23.02.37
+[2015.03.14-22.02.37:847][185]LogWorld: Bringing up level for play took: 0.007506
+[2015.03.14-22.02.37:853][185]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 1.168
+[2015.03.14-22.02.39:967][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003DA64C20
+[2015.03.14-22.03.12:250][480]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset"'
+[2015.03.14-22.03.12:263][480]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Vision/Content/TopDownBP/Blueprints/TopDownController.uasset
+'
+[2015.03.14-22.03.12:357][480]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownController" FILE="../../../../../../../GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset" SILENT=true
+[2015.03.14-22.03.12:416][480]LogSavePackage: Save=52.203564ms
+[2015.03.14-22.03.12:416][480]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/TopDownController4EBD05934CF28D1050B21F96F3184144.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset'
+[2015.03.14-22.03.12:431][481]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset"'
+[2015.03.14-22.03.12:438][482]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Vision/Content/TopDownBP/Blueprints/TopDownController.uasset
+'
+[2015.03.14-22.03.12:683][508]BlueprintLog: New page: Compile TopDownController
+[2015.03.14-22.03.12:797][508]BlueprintEditorCompileResults: Info [0680.24] Compile of TopDownController successful! [in 114 ms]
+[2015.03.14-22.03.13:498][579]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.14-22.03.13:498][579]PIE: New page: PIE session: TopDownExampleMap (Mar 15, 2015, 12:03:13 AM)
+[2015.03.14-22.03.13:537][579]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038119s)
+[2015.03.14-22.03.13:538][579]LogPlayLevel: PIE: World Init took: (0.001327s)
+[2015.03.14-22.03.13:539][579]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.039756s)
+[2015.03.14-22.03.13:583][579]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.03.14-22.03.13:586][579]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.03.14-22.03.13:594][579]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.14-22.03.13:594][579]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2015.03.14-23.03.13
+[2015.03.14-22.03.13:595][579]LogWorld: Bringing up level for play took: 0.008104
+[2015.03.14-22.03.13:601][579]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.916
+[2015.03.14-22.03.16:976][622]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000487127A0
+[2015.03.14-22.03.33:451][395]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.14-22.03.33:458][395]LogPlayLevel: [PIE] Compiling StatManager before PIE...
+[2015.03.14-22.03.33:540][395]LogPlayLevel: [PIE] Compiling TopDownController before PIE...
+[2015.03.14-22.03.33:648][395]LogPlayLevel: PIE:  Blueprint regeneration took 197 ms (2 blueprints)
+[2015.03.14-22.03.33:649][395]PIE: New page: PIE session: TopDownExampleMap (Mar 15, 2015, 12:03:33 AM)
+[2015.03.14-22.03.33:688][395]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038962s)
+[2015.03.14-22.03.33:690][395]LogPlayLevel: PIE: World Init took: (0.001308s)
+[2015.03.14-22.03.33:690][395]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.040506s)
+[2015.03.14-22.03.33:730][395]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.03.14-22.03.33:734][395]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.03.14-22.03.33:742][395]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.14-22.03.33:742][395]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2015.03.14-23.03.33
+[2015.03.14-22.03.33:743][395]LogWorld: Bringing up level for play took: 0.007535
+[2015.03.14-22.03.33:747][395]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 1.063
+[2015.03.14-22.03.35:713][420]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017B64540
+[2015.03.14-22.03.36:395][494]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.03.36:409][494]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.03.36:497][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/StatManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset" SILENT=true
+[2015.03.14-22.03.36:545][494]LogSavePackage: Save=44.354240ms
+[2015.03.14-22.03.36:545][494]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManager576876794754784F5D6C7BA53563C3A8.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset'
+[2015.03.14-22.03.36:559][495]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.03.36:567][496]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.03.37:264][577]BlueprintLog: New page: Compile StatManager
+[2015.03.14-22.03.37:375][577]BlueprintEditorCompileResults: Info [0704.82] Compile of StatManager successful! [in 109 ms]
+[2015.03.14-22.03.47:177][650]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset"'
+[2015.03.14-22.03.47:189][650]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Vision/Content/TopDownBP/Blueprints/TopDownController.uasset
+'
+[2015.03.14-22.03.47:298][650]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownController" FILE="../../../../../../../GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset" SILENT=true
+[2015.03.14-22.03.47:355][650]LogSavePackage: Save=51.530293ms
+[2015.03.14-22.03.47:355][650]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/TopDownController0C90639144ADE220B20FD68BC37B5866.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset'
+[2015.03.14-22.03.47:369][651]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset"'
+[2015.03.14-22.03.47:375][652]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Vision/Content/TopDownBP/Blueprints/TopDownController.uasset
+'
+[2015.03.14-22.03.47:625][678]BlueprintLog: New page: Compile TopDownController
+[2015.03.14-22.03.47:738][678]BlueprintEditorCompileResults: Info [0715.18] Compile of TopDownController successful! [in 112 ms]
+[2015.03.14-22.04.04:969][447]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset"'
+[2015.03.14-22.04.04:983][447]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Vision/Content/TopDownBP/Blueprints/TopDownController.uasset
+'
+[2015.03.14-22.04.05:070][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownController" FILE="../../../../../../../GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset" SILENT=true
+[2015.03.14-22.04.05:125][447]LogSavePackage: Save=50.864845ms
+[2015.03.14-22.04.05:125][447]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/TopDownController0453947F4F06265E988E779F87E33333.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset'
+[2015.03.14-22.04.05:139][448]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset"'
+[2015.03.14-22.04.05:147][449]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Vision/Content/TopDownBP/Blueprints/TopDownController.uasset
+'
+[2015.03.14-22.04.21:257][ 77]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.14-22.04.21:266][ 77]LogPlayLevel: [PIE] Compiling TopDownController before PIE...
+[2015.03.14-22.04.21:372][ 77]LogPlayLevel: PIE:  Blueprint regeneration took 114 ms (1 blueprints)
+[2015.03.14-22.04.21:373][ 77]PIE: New page: PIE session: TopDownExampleMap (Mar 15, 2015, 12:04:21 AM)
+[2015.03.14-22.04.21:413][ 77]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039560s)
+[2015.03.14-22.04.21:414][ 77]LogPlayLevel: PIE: World Init took: (0.001342s)
+[2015.03.14-22.04.21:414][ 77]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.041171s)
+[2015.03.14-22.04.21:458][ 77]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.03.14-22.04.21:460][ 77]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.03.14-22.04.21:468][ 77]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.14-22.04.21:468][ 77]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2015.03.14-23.04.21
+[2015.03.14-22.04.21:469][ 77]LogWorld: Bringing up level for play took: 0.007588
+[2015.03.14-22.04.21:474][ 77]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.792
+[2015.03.14-22.04.22:555][ 90]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017B677E0
+[2015.03.14-22.04.23:385][176]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset"'
+[2015.03.14-22.04.23:397][176]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Vision/Content/TopDownBP/Blueprints/TopDownController.uasset
+'
+[2015.03.14-22.04.23:474][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownController" FILE="../../../../../../../GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset" SILENT=true
+[2015.03.14-22.04.23:530][176]LogSavePackage: Save=51.239754ms
+[2015.03.14-22.04.23:530][176]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/TopDownController1131D8B24B5D48A4867EDA97E88D00FC.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset'
+[2015.03.14-22.04.23:542][177]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset"'
+[2015.03.14-22.04.23:557][179]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Vision/Content/TopDownBP/Blueprints/TopDownController.uasset
+'
+[2015.03.14-22.04.23:838][210]BlueprintLog: New page: Compile TopDownController
+[2015.03.14-22.04.23:952][210]BlueprintEditorCompileResults: Info [0751.40] Compile of TopDownController successful! [in 113 ms]
+[2015.03.14-22.04.43:041][410]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.04.43:058][410]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.04.43:129][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/StatManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset" SILENT=true
+[2015.03.14-22.04.43:182][410]LogSavePackage: Save=43.964527ms
+[2015.03.14-22.04.43:182][410]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManager2E40A18246426E07246CBEB174EF9E65.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset'
+[2015.03.14-22.04.43:196][411]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.04.43:205][412]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.04.43:511][445]BlueprintLog: New page: Compile StatManager
+[2015.03.14-22.04.43:625][445]BlueprintEditorCompileResults: Info [0771.07] Compile of StatManager successful! [in 112 ms]
+[2015.03.14-22.05.03:435][509]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.05.03:451][509]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.05.03:501][509]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/StatManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset" SILENT=true
+[2015.03.14-22.05.03:553][509]LogSavePackage: Save=47.355461ms
+[2015.03.14-22.05.03:553][509]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManager061B0C5D47DCC0EEDE01CC9EF2A4EBEF.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset'
+[2015.03.14-22.05.03:568][510]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.05.03:576][511]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.05.03:978][555]BlueprintLog: New page: Compile StatManager
+[2015.03.14-22.05.04:088][555]BlueprintEditorCompileResults: Info [0791.54] Compile of StatManager successful! [in 110 ms]
+[2015.03.14-22.05.05:097][659]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.14-22.05.05:103][659]LogPlayLevel: [PIE] Compiling TopDownController before PIE...
+[2015.03.14-22.05.05:212][659]LogPlayLevel: PIE:  Blueprint regeneration took 114 ms (1 blueprints)
+[2015.03.14-22.05.05:212][659]PIE: New page: PIE session: TopDownExampleMap (Mar 15, 2015, 12:05:05 AM)
+[2015.03.14-22.05.05:250][659]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037227s)
+[2015.03.14-22.05.05:251][659]LogPlayLevel: PIE: World Init took: (0.001368s)
+[2015.03.14-22.05.05:251][659]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.038884s)
+[2015.03.14-22.05.05:294][659]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.03.14-22.05.05:297][659]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.03.14-22.05.05:305][659]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.14-22.05.05:305][659]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2015.03.14-23.05.05
+[2015.03.14-22.05.05:306][659]LogWorld: Bringing up level for play took: 0.007756
+[2015.03.14-22.05.05:312][659]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.631
+[2015.03.14-22.05.06:687][676]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000043D5DC60
+[2015.03.14-22.05.07:396][752]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.05.07:410][752]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.05.07:486][752]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/StatManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset" SILENT=true
+[2015.03.14-22.05.07:538][752]LogSavePackage: Save=47.471954ms
+[2015.03.14-22.05.07:538][752]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManager0949CB29443828D0071EB2BB90E6E78D.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset'
+[2015.03.14-22.05.07:550][753]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.05.07:558][754]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.05.23:524][571]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.05.23:536][571]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.05.23:624][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/StatManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset" SILENT=true
+[2015.03.14-22.05.23:675][571]LogSavePackage: Save=47.015194ms
+[2015.03.14-22.05.23:675][571]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManager643C7E584696FFB6AD2EFD8751AA710B.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset'
+[2015.03.14-22.05.23:689][572]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.05.23:704][574]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.05.23:965][605]BlueprintLog: New page: Compile StatManager
+[2015.03.14-22.05.24:076][605]BlueprintEditorCompileResults: Info [0811.53] Compile of StatManager successful! [in 110 ms]
+[2015.03.14-22.05.36:966][ 85]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.05.36:980][ 85]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.05.37:060][ 85]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/StatManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset" SILENT=true
+[2015.03.14-22.05.37:111][ 85]LogSavePackage: Save=45.887115ms
+[2015.03.14-22.05.37:111][ 85]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManagerC1EB171549A22942168470B43CA18ED7.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset'
+[2015.03.14-22.05.37:125][ 86]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.05.37:134][ 87]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.05.37:908][174]BlueprintLog: New page: Compile StatManager
+[2015.03.14-22.05.38:017][174]BlueprintEditorCompileResults: Info [0825.47] Compile of StatManager successful! [in 109 ms]
+[2015.03.14-22.05.43:002][710]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.05.43:014][710]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.05.43:128][710]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/StatManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset" SILENT=true
+[2015.03.14-22.05.43:178][710]LogSavePackage: Save=45.041199ms
+[2015.03.14-22.05.43:178][710]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManager9FE1D69E43607C5BE33E0EB337C89DEC.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset'
+[2015.03.14-22.05.43:192][711]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.05.43:200][712]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.05.43:561][754]BlueprintLog: New page: Compile StatManager
+[2015.03.14-22.05.43:673][754]BlueprintEditorCompileResults: Info [0831.12] Compile of StatManager successful! [in 111 ms]
+[2015.03.14-22.06.24:661][249]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.14-22.06.24:669][249]LogPlayLevel: [PIE] Compiling TopDownController before PIE...
+[2015.03.14-22.06.24:775][249]LogPlayLevel: PIE:  Blueprint regeneration took 114 ms (1 blueprints)
+[2015.03.14-22.06.24:775][249]PIE: New page: PIE session: TopDownExampleMap (Mar 15, 2015, 12:06:24 AM)
+[2015.03.14-22.06.24:816][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040234s)
+[2015.03.14-22.06.24:818][249]LogPlayLevel: PIE: World Init took: (0.001408s)
+[2015.03.14-22.06.24:818][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.041896s)
+[2015.03.14-22.06.24:858][249]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.03.14-22.06.24:862][249]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.03.14-22.06.24:870][249]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.14-22.06.24:870][249]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2015.03.14-23.06.24
+[2015.03.14-22.06.24:871][249]LogWorld: Bringing up level for play took: 0.007981
+[2015.03.14-22.06.24:876][249]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.198
+[2015.03.14-22.06.28:033][290]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004B149B20
+[2015.03.14-22.06.42:627][883]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.14-22.06.42:636][883]LogPlayLevel: [PIE] Compiling TopDownController before PIE...
+[2015.03.14-22.06.42:743][883]LogPlayLevel: PIE:  Blueprint regeneration took 115 ms (1 blueprints)
+[2015.03.14-22.06.42:743][883]PIE: New page: PIE session: TopDownExampleMap (Mar 15, 2015, 12:06:42 AM)
+[2015.03.14-22.06.42:779][883]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035855s)
+[2015.03.14-22.06.42:781][883]LogPlayLevel: PIE: World Init took: (0.001250s)
+[2015.03.14-22.06.42:781][883]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.037359s)
+[2015.03.14-22.06.42:821][883]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.03.14-22.06.42:825][883]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.03.14-22.06.42:832][883]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.14-22.06.42:832][883]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2015.03.14-23.06.42
+[2015.03.14-22.06.42:833][883]LogWorld: Bringing up level for play took: 0.007737
+[2015.03.14-22.06.42:838][883]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.161
+[2015.03.14-22.06.44:366][902]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012E58CC0
+[2015.03.14-22.06.45:134][985]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset"'
+[2015.03.14-22.06.45:152][985]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Vision/Content/TopDownBP/Blueprints/TopDownController.uasset
+'
+[2015.03.14-22.06.45:245][985]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownController" FILE="../../../../../../../GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset" SILENT=true
+[2015.03.14-22.06.45:301][985]LogSavePackage: Save=52.213619ms
+[2015.03.14-22.06.45:301][985]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/TopDownControllerD51CA7F34DC15B2785F6D6A0E8BC1B8E.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset'
+[2015.03.14-22.06.45:314][986]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset"'
+[2015.03.14-22.06.45:330][988]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Vision/Content/TopDownBP/Blueprints/TopDownController.uasset
+'
+[2015.03.14-22.06.46:655][143]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.14-22.06.46:655][143]PIE: New page: PIE session: TopDownExampleMap (Mar 15, 2015, 12:06:46 AM)
+[2015.03.14-22.06.46:692][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036718s)
+[2015.03.14-22.06.46:693][143]LogPlayLevel: PIE: World Init took: (0.001285s)
+[2015.03.14-22.06.46:694][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.038256s)
+[2015.03.14-22.06.46:735][143]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.03.14-22.06.46:738][143]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.03.14-22.06.46:746][143]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.14-22.06.46:746][143]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2015.03.14-23.06.46
+[2015.03.14-22.06.46:747][143]LogWorld: Bringing up level for play took: 0.008174
+[2015.03.14-22.06.46:753][143]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.075
+[2015.03.14-22.06.51:228][202]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004219A700
+[2015.03.14-22.06.52:041][287]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset"'
+[2015.03.14-22.06.52:056][287]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Vision/Content/TopDownBP/Blueprints/TopDownController.uasset
+'
+[2015.03.14-22.06.52:124][287]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownController" FILE="../../../../../../../GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset" SILENT=true
+[2015.03.14-22.06.52:178][287]LogSavePackage: Save=50.645264ms
+[2015.03.14-22.06.52:178][287]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/TopDownController4F08E800440BDC7F2199F29DB14B5C47.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset'
+[2015.03.14-22.06.52:196][288]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset"'
+[2015.03.14-22.06.52:210][290]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Vision/Content/TopDownBP/Blueprints/TopDownController.uasset
+'
+[2015.03.14-22.06.57:425][899]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset"'
+[2015.03.14-22.06.57:437][899]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Vision/Content/TopDownBP/Blueprints/TopDownController.uasset
+'
+[2015.03.14-22.06.57:547][899]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownController" FILE="../../../../../../../GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset" SILENT=true
+[2015.03.14-22.06.57:603][899]LogSavePackage: Save=50.515919ms
+[2015.03.14-22.06.57:603][899]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/TopDownControllerE36D68CC4608624FCBF6B3AF91D6AE82.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset'
+[2015.03.14-22.06.57:615][900]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset"'
+[2015.03.14-22.06.57:629][902]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Vision/Content/TopDownBP/Blueprints/TopDownController.uasset
+'
+[2015.03.14-22.07.09:423][277]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset"'
+[2015.03.14-22.07.09:435][277]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Vision/Content/TopDownBP/Blueprints/TopDownController.uasset
+'
+[2015.03.14-22.07.09:517][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownController" FILE="../../../../../../../GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset" SILENT=true
+[2015.03.14-22.07.09:574][277]LogSavePackage: Save=52.222839ms
+[2015.03.14-22.07.09:575][277]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/TopDownController2BA796B642EBBE592140ECA19C288965.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset'
+[2015.03.14-22.07.09:587][278]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset"'
+[2015.03.14-22.07.09:602][280]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Vision/Content/TopDownBP/Blueprints/TopDownController.uasset
+'
+[2015.03.14-22.07.25:826][123]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.07.25:839][123]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.07.25:921][123]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/StatManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset" SILENT=true
+[2015.03.14-22.07.25:972][123]LogSavePackage: Save=46.431877ms
+[2015.03.14-22.07.25:972][123]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManagerABAEF14B4EE05C63213534A8460B9436.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset'
+[2015.03.14-22.07.25:985][124]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.07.26:000][126]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.07.26:365][167]BlueprintLog: New page: Compile StatManager
+[2015.03.14-22.07.26:480][167]BlueprintEditorCompileResults: Info [0933.93] Compile of StatManager successful! [in 114 ms]
+[2015.03.14-22.07.35:613][220]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.07.35:625][220]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.07.35:724][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/StatManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset" SILENT=true
+[2015.03.14-22.07.35:779][220]LogSavePackage: Save=49.324986ms
+[2015.03.14-22.07.35:779][220]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManager261D42324F97681E81117BAC92F63C60.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset'
+[2015.03.14-22.07.35:791][221]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.07.35:804][223]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.07.36:199][270]BlueprintLog: New page: Compile StatManager
+[2015.03.14-22.07.36:307][270]BlueprintEditorCompileResults: Info [0943.76] Compile of StatManager successful! [in 108 ms]
+[2015.03.14-22.07.46:496][395]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.07.46:508][395]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.07.46:577][395]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/StatManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset" SILENT=true
+[2015.03.14-22.07.46:630][395]LogSavePackage: Save=49.334484ms
+[2015.03.14-22.07.46:630][395]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManager10124BCC4AC7A95752A4DA9244C75D20.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset'
+[2015.03.14-22.07.46:644][396]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.07.46:652][397]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.07.46:939][429]BlueprintLog: New page: Compile StatManager
+[2015.03.14-22.07.47:052][429]BlueprintEditorCompileResults: Info [0954.51] Compile of StatManager successful! [in 112 ms]
+[2015.03.14-22.08.35:558][762]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.08.35:570][762]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.08.35:672][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/StatManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset" SILENT=true
+[2015.03.14-22.08.35:741][762]LogSavePackage: Save=63.781010ms
+[2015.03.14-22.08.35:741][762]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManagerD80DA44F4B16D06BBE3F13ACBDCD4C95.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset'
+[2015.03.14-22.08.35:753][763]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.08.35:768][765]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.08.36:001][792]BlueprintLog: New page: Compile StatManager
+[2015.03.14-22.08.36:136][792]BlueprintEditorCompileResults: Info [1003.59] Compile of StatManager successful! [in 133 ms]
+[2015.03.14-22.08.48:975][249]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.08.48:993][249]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.08.49:076][249]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/StatManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset" SILENT=true
+[2015.03.14-22.08.49:145][249]LogSavePackage: Save=64.954346ms
+[2015.03.14-22.08.49:145][249]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManagerCB3808AA467041FA8F5E0DB2037B78DD.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset'
+[2015.03.14-22.08.49:157][250]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.08.49:170][252]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.08.49:465][287]BlueprintLog: New page: Compile StatManager
+[2015.03.14-22.08.49:588][287]BlueprintEditorCompileResults: Info [1017.05] Compile of StatManager successful! [in 122 ms]
+[2015.03.14-22.09.43:962][333]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.03.14-22.10.00:128][ 91]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.10.00:142][ 91]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.10.00:227][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/StatManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset" SILENT=true
+[2015.03.14-22.10.00:313][ 91]LogSavePackage: Save=78.725647ms
+[2015.03.14-22.10.00:314][ 91]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManagerBAF461E1496FCF19392F8C99D7B1728E.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset'
+[2015.03.14-22.10.00:327][ 92]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.10.00:341][ 94]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.10.00:794][148]BlueprintLog: New page: Compile StatManager
+[2015.03.14-22.10.00:921][148]BlueprintEditorCompileResults: Info [1088.38] Compile of StatManager successful! [in 127 ms]
+[2015.03.14-22.10.40:598][479]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.10.40:620][479]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.10.40:670][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/StatManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset" SILENT=true
+[2015.03.14-22.10.40:759][479]LogSavePackage: Save=84.293953ms
+[2015.03.14-22.10.40:759][479]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManagerB584E10B4FC247313C6656A0D4086F7B.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset'
+[2015.03.14-22.10.40:774][480]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.10.40:783][481]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.10.41:031][508]BlueprintLog: New page: Compile StatManager
+[2015.03.14-22.10.41:159][508]BlueprintEditorCompileResults: Info [1128.62] Compile of StatManager successful! [in 127 ms]
+[2015.03.14-22.11.13:161][886]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset"'
+[2015.03.14-22.11.13:177][886]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Vision/Content/TopDownBP/Blueprints/TopDownController.uasset
+'
+[2015.03.14-22.11.13:229][886]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownController" FILE="../../../../../../../GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset" SILENT=true
+[2015.03.14-22.11.13:294][886]LogSavePackage: Save=57.955410ms
+[2015.03.14-22.11.13:294][886]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/TopDownController89F7A0DF4F4A2C07DBD32FB78A576C92.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset'
+[2015.03.14-22.11.13:309][887]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset"'
+[2015.03.14-22.11.13:318][888]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Vision/Content/TopDownBP/Blueprints/TopDownController.uasset
+'
+[2015.03.14-22.11.13:646][923]BlueprintLog: New page: Compile TopDownController
+[2015.03.14-22.11.13:768][923]BlueprintEditorCompileResults: Info [1161.23] Compile of TopDownController successful! [in 121 ms]
+[2015.03.14-22.11.15:972][165]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.14-22.11.15:972][165]PIE: New page: PIE session: TopDownExampleMap (Mar 15, 2015, 12:11:15 AM)
+[2015.03.14-22.11.16:010][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037186s)
+[2015.03.14-22.11.16:012][165]LogPlayLevel: PIE: World Init took: (0.001491s)
+[2015.03.14-22.11.16:012][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.038947s)
+[2015.03.14-22.11.16:053][165]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.03.14-22.11.16:057][165]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.03.14-22.11.16:065][165]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.14-22.11.16:065][165]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2015.03.14-23.11.16
+[2015.03.14-22.11.16:066][165]LogWorld: Bringing up level for play took: 0.008012
+[2015.03.14-22.11.16:072][165]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.597
+[2015.03.14-22.11.21:475][236]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000039678720
+[2015.03.14-22.11.47:809][ 92]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.11.47:821][ 92]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.11.47:920][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/StatManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset" SILENT=true
+[2015.03.14-22.11.48:019][ 92]LogSavePackage: Save=93.280289ms
+[2015.03.14-22.11.48:019][ 92]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManager9C45FD40483981530C53119E8BFD585D.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset'
+[2015.03.14-22.11.48:033][ 93]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.11.48:041][ 94]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.11.48:350][130]BlueprintLog: New page: Compile StatManager
+[2015.03.14-22.11.48:486][130]BlueprintEditorCompileResults: Info [1195.95] Compile of StatManager successful! [in 135 ms]
+[2015.03.14-22.11.49:292][218]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.14-22.11.49:298][218]LogPlayLevel: [PIE] Compiling TopDownController before PIE...
+[2015.03.14-22.11.49:413][218]LogPlayLevel: PIE:  Blueprint regeneration took 119 ms (1 blueprints)
+[2015.03.14-22.11.49:413][218]PIE: New page: PIE session: TopDownExampleMap (Mar 15, 2015, 12:11:49 AM)
+[2015.03.14-22.11.49:452][218]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038746s)
+[2015.03.14-22.11.49:454][218]LogPlayLevel: PIE: World Init took: (0.001221s)
+[2015.03.14-22.11.49:454][218]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.040212s)
+[2015.03.14-22.11.49:498][218]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.03.14-22.11.49:501][218]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.03.14-22.11.49:508][218]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.14-22.11.49:508][218]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2015.03.14-23.11.49
+[2015.03.14-22.11.49:509][218]LogWorld: Bringing up level for play took: 0.007504
+[2015.03.14-22.11.49:515][218]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.848
+[2015.03.14-22.11.50:124][226]LogBlueprintUserMessages: Vitality
+[2015.03.14-22.11.50:912][236]LogBlueprintUserMessages: Vitality
+[2015.03.14-22.11.51:207][240]LogBlueprintUserMessages: Vitality
+[2015.03.14-22.11.51:428][243]LogBlueprintUserMessages: Vitality
+[2015.03.14-22.11.51:574][245]LogBlueprintUserMessages: Vitality
+[2015.03.14-22.11.51:722][247]LogBlueprintUserMessages: Vitality
+[2015.03.14-22.11.51:869][249]LogBlueprintUserMessages: Vitality
+[2015.03.14-22.11.52:028][251]LogBlueprintUserMessages: Vitality
+[2015.03.14-22.11.52:184][253]LogBlueprintUserMessages: Vitality
+[2015.03.14-22.11.52:333][255]LogBlueprintUserMessages: Vitality
+[2015.03.14-22.11.52:479][257]LogBlueprintUserMessages: Vitality
+[2015.03.14-22.11.52:701][260]LogBlueprintUserMessages: Vitality
+[2015.03.14-22.11.52:849][262]LogBlueprintUserMessages: Vitality
+[2015.03.14-22.11.52:995][264]LogBlueprintUserMessages: Vitality
+[2015.03.14-22.11.54:095][278]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004D0BE340
+[2015.03.14-22.12.02:459][200]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.03.14-22.12.02:467][200]LogPlayLevel: [PIE] Compiling StatManager before PIE...
+[2015.03.14-22.12.02:571][200]LogPlayLevel: [PIE] Compiling TopDownController before PIE...
+[2015.03.14-22.12.02:685][200]LogPlayLevel: PIE:  Blueprint regeneration took 226 ms (2 blueprints)
+[2015.03.14-22.12.02:686][200]PIE: New page: PIE session: TopDownExampleMap (Mar 15, 2015, 12:12:02 AM)
+[2015.03.14-22.12.02:723][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036877s)
+[2015.03.14-22.12.02:724][200]LogPlayLevel: PIE: World Init took: (0.001254s)
+[2015.03.14-22.12.02:725][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.038428s)
+[2015.03.14-22.12.02:769][200]LogWorld: Game class is 'TopDownGameMode_C'
+[2015.03.14-22.12.02:772][200]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2015.03.14-22.12.02:780][200]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.03.14-22.12.02:780][200]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2015.03.14-23.12.02
+[2015.03.14-22.12.02:781][200]LogWorld: Bringing up level for play took: 0.007981
+[2015.03.14-22.12.02:786][200]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.118
+[2015.03.14-22.12.03:233][206]LogBlueprintUserMessages: 9
+[2015.03.14-22.12.03:383][208]LogBlueprintUserMessages: 9
+[2015.03.14-22.12.03:541][210]LogBlueprintUserMessages: 9
+[2015.03.14-22.12.03:689][212]LogBlueprintUserMessages: 9
+[2015.03.14-22.12.03:838][214]LogBlueprintUserMessages: 9
+[2015.03.14-22.12.03:958][215]LogBlueprintUserMessages: 9
+[2015.03.14-22.12.04:103][217]LogBlueprintUserMessages: 9
+[2015.03.14-22.12.04:249][219]LogBlueprintUserMessages: 9
+[2015.03.14-22.12.04:396][221]LogBlueprintUserMessages: 9
+[2015.03.14-22.12.04:543][223]LogBlueprintUserMessages: 9
+[2015.03.14-22.12.05:354][233]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004BA6FCE0
+[2015.03.14-22.12.38:167][859]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.12.38:181][859]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.12.38:268][859]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/StatManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset" SILENT=true
+[2015.03.14-22.12.38:360][859]LogSavePackage: Save=87.020554ms
+[2015.03.14-22.12.38:360][859]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManager88EA7E0D43347E22FEB5ABB46987C3A4.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset'
+[2015.03.14-22.12.38:374][860]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.12.38:381][861]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.12.38:577][884]BlueprintLog: New page: Compile StatManager
+[2015.03.14-22.12.38:707][884]BlueprintEditorCompileResults: Info [1246.17] Compile of StatManager successful! [in 129 ms]
+[2015.03.14-22.12.46:683][766]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.029
+[2015.03.14-22.12.46:720][766]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/TopDownController] ([1] browsable assets)...
+[2015.03.14-22.12.46:731][766]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownController]
+[2015.03.14-22.12.46:870][766]LogSavePackage: Save=130.688400ms
+[2015.03.14-22.12.46:871][766]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/TopDownController_Auto2B52FAE7149DB3A1BB2B2839C68B1C4F0.tmp' to '../../../../../../../GitHub/Vision/Vision/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownController_Auto2.uasset'
+[2015.03.14-22.12.46:877][766]LogFileHelpers: Auto-saving content packages took 0.195
+[2015.03.14-22.13.10:109][426]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.13.10:123][426]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.13.10:208][426]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/StatManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset" SILENT=true
+[2015.03.14-22.13.10:275][426]LogSavePackage: Save=62.278866ms
+[2015.03.14-22.13.10:275][426]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManagerC451159044B542B543ABF4954614C601.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset'
+[2015.03.14-22.13.10:289][427]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.13.10:298][428]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.13.10:653][469]BlueprintLog: New page: Compile StatManager
+[2015.03.14-22.13.10:778][469]BlueprintEditorCompileResults: Info [1278.24] Compile of StatManager successful! [in 124 ms]
+[2015.03.14-22.13.16:228][ 88]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.13.16:246][ 88]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.13.16:343][ 88]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RPG-System/Stats/StatManager" FILE="../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset" SILENT=true
+[2015.03.14-22.13.16:410][ 88]LogSavePackage: Save=61.342712ms
+[2015.03.14-22.13.16:410][ 88]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/StatManager0EB910634A005A8AD66B8FA46A46C391.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset'
+[2015.03.14-22.13.16:422][ 89]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/RPG-System/Stats/StatManager.uasset"'
+[2015.03.14-22.13.16:430][ 90]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults='AM Vision/Content/RPG-System/Stats/StatManager.uasset
+'
+[2015.03.14-22.13.18:492][320]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset"'
+[2015.03.14-22.13.18:503][320]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Vision/Content/TopDownBP/Blueprints/TopDownController.uasset
+'
+[2015.03.14-22.13.18:611][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownController" FILE="../../../../../../../GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset" SILENT=true
+[2015.03.14-22.13.18:674][320]LogSavePackage: Save=58.686787ms
+[2015.03.14-22.13.18:674][320]LogSavePackage: Moving '../../../../../../../GitHub/Vision/Vision/Saved/TopDownController81907F8E451C97150C5C0CBC30B28E9C.tmp' to '../../../../../../../GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset'
+[2015.03.14-22.13.18:689][321]LogSourceControl: RunCommandInternalRaw: 'git status --porcelain --ignored "D:/GitHub/Vision/Vision/Content/TopDownBP/Blueprints/TopDownController.uasset"'
+[2015.03.14-22.13.18:698][322]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=0 OutResults=' M Vision/Content/TopDownBP/Blueprints/TopDownController.uasset
+'
+[2015.03.14-22.13.20:462][453]Cmd: QUIT_EDITOR
+[2015.03.14-22.13.20:711][453]LogExit: Preparing to exit.
+[2015.03.14-22.13.21:833][453]LogExit: Editor shut down
+[2015.03.14-22.13.21:833][453]LogExit: Transaction tracking system shut down
+[2015.03.14-22.13.21:835][453]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C88E200
+[2015.03.14-22.13.21:835][453]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F621580
+[2015.03.14-22.13.21:836][453]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003AA9CC20
+[2015.03.14-22.13.21:837][453]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CA59800
+[2015.03.14-22.13.21:837][453]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000038409260
+[2015.03.14-22.13.21:837][453]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000BE091C0
+[2015.03.14-22.13.22:061][453]LogExit: Object subsystem successfully closed.
+[2015.03.14-22.13.22:109][453]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.03.14-22.13.22:109][453]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.03.14-22.13.22:109][453]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.03.14-22.13.22:109][453]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.03.14-22.13.22:109][453]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.03.14-22.13.22:109][453]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.03.14-22.13.22:109][453]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.03.14-22.13.22:109][453]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.03.14-22.13.22:109][453]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.03.14-22.13.22:109][453]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.03.14-22.13.22:109][453]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.03.14-22.13.22:109][453]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.03.14-22.13.22:109][453]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.03.14-22.13.22:109][453]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.03.14-22.13.22:109][453]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.03.14-22.13.22:109][453]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.03.14-22.13.22:109][453]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.03.14-22.13.22:109][453]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.03.14-22.13.22:109][453]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.03.14-22.13.22:109][453]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.03.14-22.13.22:109][453]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.03.14-22.13.22:109][453]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.03.14-22.13.22:109][453]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.03.14-22.13.22:109][453]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.03.14-22.13.22:109][453]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.03.14-22.13.22:109][453]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.03.14-22.13.22:109][453]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.03.14-22.13.22:109][453]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.03.14-22.13.22:109][453]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.03.14-22.13.22:110][453]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.03.14-22.13.22:110][453]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.03.14-22.13.22:110][453]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.03.14-22.13.22:903][453]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.03.14-22.13.22:903][453]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.03.14-22.13.22:903][453]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.03.14-22.13.22:903][453]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.03.14-22.13.22:903][453]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.03.14-22.13.22:903][453]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.03.14-22.13.22:903][453]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.03.14-22.13.22:903][453]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.03.14-22.13.22:903][453]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.03.14-22.13.22:903][453]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.03.14-22.13.22:903][453]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.03.14-22.13.22:903][453]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.03.14-22.13.22:903][453]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.03.14-22.13.22:903][453]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.03.14-22.13.22:903][453]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.03.14-22.13.22:903][453]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.03.14-22.13.22:903][453]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.03.14-22.13.22:903][453]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.03.14-22.13.22:904][453]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.03.14-22.13.22:984][453]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.03.14-22.13.22:985][453]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.03.14-22.13.22:985][453]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.03.14-22.13.22:986][453]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.03.14-22.13.22:986][453]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.03.14-22.13.22:986][453]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.03.14-22.13.22:986][453]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.03.14-22.13.22:986][453]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.03.14-22.13.22:986][453]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.03.14-22.13.22:986][453]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.03.14-22.13.22:986][453]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.03.14-22.13.22:986][453]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.03.14-22.13.22:986][453]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.03.14-22.13.22:986][453]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.03.14-22.13.22:986][453]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.03.14-22.13.22:986][453]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.03.14-22.13.22:986][453]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.03.14-22.13.22:986][453]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.03.14-22.13.22:986][453]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.03.14-22.13.22:986][453]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.03.14-22.13.22:986][453]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.03.14-22.13.23:211][453]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.03.14-22.13.23:211][453]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.03.14-22.13.23:211][453]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.03.14-22.13.23:211][453]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.03.14-22.13.23:211][453]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.03.14-22.13.23:211][453]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.03.14-22.13.23:211][453]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.03.14-22.13.23:211][453]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.03.14-22.13.23:211][453]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.03.14-22.13.23:211][453]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.03.14-22.13.23:211][453]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.03.14-22.13.23:211][453]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.03.14-22.13.23:211][453]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.03.14-22.13.23:212][453]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.03.14-22.13.23:212][453]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.03.14-22.13.23:212][453]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.03.14-22.13.23:212][453]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.03.14-22.13.23:212][453]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.03.14-22.13.23:212][453]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.03.14-22.13.23:212][453]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.03.14-22.13.23:212][453]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.03.14-22.13.23:212][453]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.03.14-22.13.23:212][453]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.03.14-22.13.23:212][453]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.03.14-22.13.23:213][453]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.03.14-22.13.23:213][453]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.03.14-22.13.23:213][453]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.03.14-22.13.23:314][453]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.03.14-22.13.23:314][453]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.03.14-22.13.23:318][453]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.03.14-22.13.23:318][453]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.03.14-22.13.23:318][453]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.03.14-22.13.23:318][453]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.03.14-22.13.23:318][453]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.03.14-22.13.23:318][453]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.03.14-22.13.23:318][453]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.03.14-22.13.23:318][453]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.03.14-22.13.23:318][453]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.03.14-22.13.23:318][453]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.03.14-22.13.23:318][453]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.03.14-22.13.23:319][453]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.03.14-22.13.23:319][453]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.03.14-22.13.23:319][453]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.03.14-22.13.23:319][453]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.03.14-22.13.23:323][453]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.03.14-22.13.23:323][453]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.03.14-22.13.23:323][453]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.03.14-22.13.23:323][453]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.03.14-22.13.23:323][453]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.03.14-22.13.23:323][453]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.03.14-22.13.23:323][453]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.03.14-22.13.23:323][453]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.03.14-22.13.23:323][453]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.03.14-22.13.23:323][453]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.03.14-22.13.23:410][453]LogDerivedDataCache: Shutdown
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.03.14-22.13.23:410][453]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.03.14-22.13.23:416][453]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.03.14-22.13.23:416][453]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.03.14-22.13.23:416][453]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.03.14-22.13.23:416][453]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.03.14-22.13.23:416][453]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.03.14-22.13.23:416][453]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.03.14-22.13.23:416][453]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.03.14-22.13.23:416][453]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.03.14-22.13.23:416][453]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.03.14-22.13.23:417][453]LogExit: Exiting.
+[2015.03.14-22.13.23:422][453]Log file closed, 03/14/15 23:13:23
