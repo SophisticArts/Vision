@@ -17,14 +17,14 @@ UE4.sln
 UE4.suo
 UE4.*.suo
 
-Vision/Binaries/
-Vision/DerivedDataCache/
-Vision/Intermediate/
-Vision/Saved/
+Vision/Binaries/*
+Vision/DerivedDataCache/*
+Vision/Intermediate/*
+Vision/Saved/*
 
-Vision/Binaries/
-Vision/Intermediate/
-Vision/Saved/
+Vision/Binaries/*
+Vision/Intermediate/*
+Vision/Saved/*
 Vision/Vision.opensdf
 Vision/Vision.sdf
 Vision/Vision.sln
