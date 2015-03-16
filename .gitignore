@@ -17,7 +17,15 @@ UE4.sln
 UE4.suo
 UE4.*.suo
 
-Senseless/Binaries/
-Senseless/DerivedDataCache/
-Senseless/Intermediate/
-Senseless/Saved/
+Vision/Binaries/
+Vision/DerivedDataCache/
+Vision/Intermediate/
+Vision/Saved/
+
+Binaries/
+Intermediate/
+Saved/
+Vision.opensdf
+Vision.sdf
+Vision.sln
+Vision.v12.suo
