@@ -1,9 +1,10 @@
 
 Binaries/*
 DerivedDataCache/*
+Config/DefaultEngine.ini*
 Intermediate/*
 Saved/*
-Config/DefaultEngine.ini
+
 
 Vision.opensdf
 Vision.sdf
