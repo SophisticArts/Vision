@@ -1,9 +1,9 @@
 
-binaries/**
-deriveddataCache/**
-config/defaultengine.ini
-intermediate/**
-saved/**
+Binaries/**
+DerivedDataCache/**
+Config/DefaultEngine.ini
+Intermediate/**
+Saved/**
 
 
 Vision.opensdf
