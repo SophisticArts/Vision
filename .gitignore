@@ -1,13 +1,12 @@
 
-Binaries/*
-DerivedDataCache/*
-Config/DefaultEngine.ini*
-Intermediate/*
-Saved/*
+Binaries/**
+DerivedDataCache/**
+**/DefaultEngine.ini
+Intermediate/**
+Saved/**
 
 
 Vision.opensdf
 Vision.sdf
 Vision.sln
 Vision.v12.suo
-Config/DefaultEngine.ini
